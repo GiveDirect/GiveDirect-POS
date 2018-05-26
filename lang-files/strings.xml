@@ -12,7 +12,7 @@
 
     <!-- Navigation Menu -->
     <string name="nav_drawer_about">About</string>
-    <string name="nav_drawer_write_wristband">Write Wristband</string>
+    <string name="nav_drawer_write_wristband">Write GiveDirect Wallet</string>
 
     <!-- Operation Friendly Names -->
     <string name="operation_account_created">Account Created</string>
@@ -35,7 +35,7 @@
     <string name="load_home_error_message">Failed to load</string>
     <string name="nfc_parse_error">Failed to parse NFC</string>
     <string name="nfc_malformed_error">Malformed NFC payload</string>
-    <string name="address_init_required_for_write">You must configure your receiving address to gain wristband writing functionality.</string>
+    <string name="address_init_required_for_write">You must configure your receiving address to gain GiveDirect Wallet writing functionality.</string>
 
     <!-- Setup Screen -->
     <string name="setup_message">Please enter the public address you will use to receive funds.</string>
@@ -45,7 +45,7 @@
     <string name="receiving_address_invalid_error">Invalid address</string>
     <string name="receiving_address_uninitialized_error_title">Account Not Initialized</string>
     <string name="receiving_address_uninitialized_error_message">Please initialize this account by first sending 1 Lumen (XLM) before proceeding.</string>
-    <string name="receiving_address_not_whitelisted_title">Account Not On File</string>
+    <string name="receiving_address_not_whitelisted_title">Account Not on file at GiveDirect</string>
     <string name="receiving_address_not_whitelisted_message">Please reach out to GiveDirect support for access.</string>
     <string name="receiving_address_unknown_error_title">Oops!</string>
     <string name="receiving_address_unknown_error_message">Something went wrong. Please try again.</string>
@@ -110,8 +110,8 @@
     <string name="private_key_invalid_error">Invalid private key</string>
     <string name="private_key_write_failure">Write Failure!</string>
     <string name="private_key_write_success">Write Success!</string>
-    <string name="private_key_write_pending">Scan the wristband&#8230;</string>
-    <string name="write_wristband">Write to Wristband</string>
+    <string name="private_key_write_pending">Scan the New GiveDirect Wallet&#8230;</string>
+    <string name="write_wristband">Write GiveDirect Wallet</string>
     <string name="private_key_encryption_failure">Failed to encrypt private key. Please try again.</string>
 
     <!-- About Fragment -->
