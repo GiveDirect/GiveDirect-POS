@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">GiveDirectPOS</string>
+    
+    <string name="company_name_spaced">GiveDirect</string>
+    <string name="platform_powered">PLATAFORMA MOTORIZADA</string>
+
+    <string name="okay">OK</string>
+    <string name="retry">Tente novamente</string>
+    <string name="next">Próximo</string>
+    <string name="error">Erro</string>
+    <string name="lumens_balance">% s Lumens</string>
+
+    
+    <string name="nav_drawer_about">Sobre</string>
+    <string name="nav_drawer_write_wristband">Escrever carteira GiveDirect</string>
+
+    
+    <string name="operation_account_created">Conta criada</string>
+    <string name="operation_payment">Forma de pagamento</string>
+    <string name="operation_path_payment">Pagamento por trajeto</string>
+    <string name="operation_manage_offer">Oferta gerenciada</string>
+    <string name="operation_create_passive_offer">Oferta passiva criada</string>
+    <string name="operation_set_options">Conjunto de Opções</string>
+    <string name="operation_change_trust">Confiança Modificada</string>
+    <string name="operation_allow_trust">Confiança Permitida</string>
+    <string name="operation_account_merge">Conta mesclada</string>
+    <string name="operation_inflation">Corrida de Inflação</string>
+    <string name="operation_manage_data">Entrada de Dados Modificada</string>
+    <string name="operation_unknown">DESCONHECIDO</string>
+
+    <string name="address_validation">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789</string>
+
+    
+    <string name="load_home_error_title">Erro</string>
+    <string name="load_home_error_message">Falha ao carregar</string>
+    <string name="nfc_parse_error">Falha ao analisar o NFC</string>
+    <string name="nfc_malformed_error">Carga útil NFC malformada</string>
+    <string name="address_init_required_for_write">Você deve configurar seu endereço de recebimento para obter a funcionalidade de gravação do GiveDirect Wallet.</string>
+
+    
+    <string name="setup_message">Por favor, insira o endereço público que você usará para receber fundos.</string>
+    <string name="receiving_address_hint">Endereço de Recebimento</string>
+    <string name="receiving_address_length_error">O endereço deve ter 56 caracteres</string>
+    <string name="receiving_address_prefix_error">O endereço deve começar com a letra \ &amp;#39;G \&amp;#39;</string>
+    <string name="receiving_address_invalid_error">Endereço inválido</string>
+    <string name="receiving_address_uninitialized_error_title">Conta não inicializada</string>
+    <string name="receiving_address_uninitialized_error_message">Por favor, inicialize esta conta enviando primeiro 1 Lumen (XLM) antes de prosseguir.</string>
+    <string name="receiving_address_not_whitelisted_title">Conta não arquivada no GiveDirect</string>
+    <string name="receiving_address_not_whitelisted_message">Entre em contato com o suporte do GiveDirect para acesso.</string>
+    <string name="receiving_address_unknown_error_title">Opa!</string>
+    <string name="receiving_address_unknown_error_message">Algo deu errado. Por favor, tente novamente.</string>
+    <string name="receiving_address_lookup_progress">Procurando pelo endereço ...</string>
+    <string name="receiving_address_set">Definir endereço de recebimento</string>
+
+    
+    <string name="recent_transactions_title">Transações recentes</string>
+    <string name="scan_title">Digitalizar para verificar o saldo</string>
+    <string name="date_label">Encontro:</string>
+    <string name="operation_type_label">Ação executada:</string>
+    <string name="memo_label">Memorando:</string>
+    <string name="recipient_label">Destinatário:</string>
+    <string name="sender_label">Remetente:</string>
+    <string name="receive_amount_prefix"> % 1 $ s% 2 $ s</string>
+    <string name="send_amount_prefix">-% 1 $ s% 2 $ s</string>
+    <string name="failed_load_transactions">Falha ao carregar transações</string>
+    <string name="trustee_label">Administrador:</string>
+    <string name="trustor_label">Trustor:</string>
+    <string name="asset_label">De ativos:</string>
+    <string name="offer_id_label">ID da oferta:</string>
+    <string name="selling_asset_code_label">Vender o código do ativo:</string>
+    <string name="buying_asset_code_label">Comprar código do ativo:</string>
+    <string name="selling_amount_label">Valor de Venda:</string>
+    <string name="buying_price_label">Preço de compra:</string>
+    <string name="merged_into_label">Mesclado em:</string>
+    <string name="entry_name_label">Nome de entrada:</string>
+    <string name="entry_value_label">Valor de entrada:</string>
+
+    
+    <string name="pra_label">PRA-% s:</string>
+    <string name="balance_label">Saldo disponível:</string>
+    <string name="process_payment">Processo de pagamento</string>
+    <string name="amount_hint">Quantidade de carga</string>
+    <string name="insufficient_funds_error">Fundos insuficientes</string>
+    <string name="greater_than_zero_error">O valor da cobrança deve ser maior que 0</string>
+    <string name="empty_amount_error">O valor da cobrança não pode estar vazio</string>
+    <string name="account_load_fail_message">Falha ao carregar a conta</string>
+    <string name="fee_calculation_fail_message">Falha ao calcular a transação, por favor, tente novamente</string>
+    <string name="init_address_message">Você deve definir seu endereço de recebimento na tela anterior antes de receber pagamentos.</string>
+
+    
+    <string name="pra_title">PRA-% s</string>
+    <string name="current_balance_label">Saldo Atual:</string>
+    <string name="charge_amount_label">Quantidade de carga:</string>
+    <string name="transaction_fee_label">Taxa de transação:</string>
+    <string name="remaining_balance_label">Saldo remanescente:</string>
+    <string name="authorize_title">Digitalizar para autorizar transações</string>
+    <string name="building_transaction">Transação de Edifício&amp;#8230;</string>
+    <string name="processing_transaction">Transação de Processamento ...</string>
+    <string name="transaction_success">Transação bem sucedida</string>
+    <string name="transaction_failed_message">A transação falhou, por favor tente novamente</string>
+    <string name="potentially_processed_message">Esta transação pode já ter sido processada. Por favor, retorne à tela principal e verifique as transações recentes.</string>
+    <string name="failed_build_transaction_title">Falha na construção da transação</string>
+    <string name="failed_build_transaction_message">Falha ao criar transação. Por favor, tente novamente.</string>
+
+    
+    <string name="write_nfc_message">Por favor, insira a chave privada da conta que você deseja gravar na pulseira.</string>
+    <string name="private_key_hint">Chave privada</string>
+    <string name="private_key_length_error">A chave privada deve ter 56 caracteres</string>
+    <string name="private_key_prefix_error">A chave privada deve começar com a letra \ &amp;#39;S \&amp;#39;</string>
+    <string name="private_key_invalid_error">Chave privada inválida</string>
+    <string name="private_key_write_failure">Escreva falha!</string>
+    <string name="private_key_write_success">Escreva o sucesso!</string>
+    <string name="private_key_write_pending">Digitalize a nova carteira GiveDirect ...</string>
+    <string name="write_wristband">Escrever carteira GiveDirect</string>
+    <string name="private_key_encryption_failure">Falha ao criptografar a chave privada. Por favor, tente novamente.</string>
+
+    
+    <string name="about_fragment_title">Sobre</string>
+    <string name="terms_and_conditions_link">Termos e Condições DE USO</string>
+    <string name="privacy_policy_link">Política de Privacidade</string>
+    <string name="source_code_link">Código fonte</string>
+    <string name="contact_link">Entre em contato com a GiveDirect</string>
+    <string name="website_link">Visite o site</string>
+    <string name="contact_subject">Suporte GiveDirect</string>
+    <string name="contact_body">Por favor, deixe-nos saber como estamos indo!</string>
+    <string name="contact_chooser_title">Email GiveDirect</string>
+
+</resources>

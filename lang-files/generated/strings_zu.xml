@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">I-GiveDirectPOS</string>
+    
+    <string name="company_name_spaced">GiveDirect</string>
+    <string name="platform_powered">I-PLATFORM YAKHULULEKILE</string>
+
+    <string name="okay">Kuhle</string>
+    <string name="retry">Zama futhi</string>
+    <string name="next">Olandelayo</string>
+    <string name="error">Iphutha</string>
+    <string name="lumens_balance">% s Lumens</string>
+
+    
+    <string name="nav_drawer_about">Mayelana</string>
+    <string name="nav_drawer_write_wristband">Bhala i-GiveDirect Wallet</string>
+
+    
+    <string name="operation_account_created">I-Akhawunti Yenziwe</string>
+    <string name="operation_payment">Ukukhokha</string>
+    <string name="operation_path_payment">Ukukhokha Kwendlela</string>
+    <string name="operation_manage_offer">Ukunikezwa Okuphethwe</string>
+    <string name="operation_create_passive_offer">Okunikezwayo Okumisiwe</string>
+    <string name="operation_set_options">Izinketho Ezikhethiwe</string>
+    <string name="operation_change_trust">I-Trust iguqulwe</string>
+    <string name="operation_allow_trust">I-Trust ivunyelwe</string>
+    <string name="operation_account_merge">I-Akhawunti ihlanganisiwe</string>
+    <string name="operation_inflation">Ukunyuka kwe-inflation</string>
+    <string name="operation_manage_data">Ukungena kwedatha kushintshiwe</string>
+    <string name="operation_unknown">AKUNGAZWAZI</string>
+
+    <string name="address_validation">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxz0123456789</string>
+
+    
+    <string name="load_home_error_title">Iphutha</string>
+    <string name="load_home_error_message">Yehlulekile ukulayisha</string>
+    <string name="nfc_parse_error">Yehlulekile ukuphazamisa i-NFC</string>
+    <string name="nfc_malformed_error">Ukulayishwa kokukhokhelwa kwe-NFC okungalungile</string>
+    <string name="address_init_required_for_write">Kumele ulungise ikheli lakho lokuthola ukuze uthole ukusebenza kokubhala kwe-GiveDirect Wallet.</string>
+
+    
+    <string name="setup_message">Sicela ufake ikheli lomphakathi ozolisebenzisa ukuze uthole imali.</string>
+    <string name="receiving_address_hint">Ukuthola ikheli</string>
+    <string name="receiving_address_length_error">Ikheli kufanele libe nezinhlamvu ezingu-56 ubude</string>
+    <string name="receiving_address_prefix_error">Ikheli kufanele liqale ngombhalo \ &amp;#39;G \&amp;#39;</string>
+    <string name="receiving_address_invalid_error">Ikheli elingavumelekile</string>
+    <string name="receiving_address_uninitialized_error_title">I-Akhawunti Ayikaqalisiwe</string>
+    <string name="receiving_address_uninitialized_error_message">Sicela uqale le akhawunti ngokuthumela kuqala i-Lumen (XLM) ngaphambi kokuqhubeka.</string>
+    <string name="receiving_address_not_whitelisted_title">I-Akhawunti ayikho kwifayela ku-GiveDirect</string>
+    <string name="receiving_address_not_whitelisted_message">Sicela uphumelele ku-GiveDirect ukwesekwa kokufinyelela.</string>
+    <string name="receiving_address_unknown_error_title">Eshu!</string>
+    <string name="receiving_address_unknown_error_message">Kukhona okungahambanga kahle. Ngicela uzame futhi.</string>
+    <string name="receiving_address_lookup_progress">Ibuka ikheli eliphezulu ...</string>
+    <string name="receiving_address_set">Setha Ukuthola Ikheli</string>
+
+    
+    <string name="recent_transactions_title">Ukuthengiselana kwakamuva</string>
+    <string name="scan_title">Skena Ukuhlola Ukulinganisela</string>
+    <string name="date_label">Usuku:</string>
+    <string name="operation_type_label">Isenzo esenziwe:</string>
+    <string name="memo_label">I-Memo:</string>
+    <string name="recipient_label">Umamukeli:</string>
+    <string name="sender_label">Umthumeli:</string>
+    <string name="receive_amount_prefix"> % 1 $ s% 2 $ s</string>
+    <string name="send_amount_prefix">-% 1 $ s% 2 $ s</string>
+    <string name="failed_load_transactions">Yehlulekile ukulayisha ukuthengiswa</string>
+    <string name="trustee_label">Umphathiswa:</string>
+    <string name="trustor_label">Umethemba:</string>
+    <string name="asset_label">Impahla:</string>
+    <string name="offer_id_label">I-Id yomnikelo:</string>
+    <string name="selling_asset_code_label">Thengisa i-Asset Code:</string>
+    <string name="buying_asset_code_label">Thenga i-Asset Code:</string>
+    <string name="selling_amount_label">Ukuthengisa Inani:</string>
+    <string name="buying_price_label">Ukuthenga Intengo:</string>
+    <string name="merged_into_label">Ihlangene ku:</string>
+    <string name="entry_name_label">Igama lokungena:</string>
+    <string name="entry_value_label">Inani lokungena:</string>
+
+    
+    <string name="pra_label">I-PRA-% s:</string>
+    <string name="balance_label">Ukulinganisa okutholakalayo:</string>
+    <string name="process_payment">Inkokhelo Yokukhokha</string>
+    <string name="amount_hint">Inani lokukhokha</string>
+    <string name="insufficient_funds_error">Izimali ezinganele</string>
+    <string name="greater_than_zero_error">Isamba sokukhokhisa kufanele sibe sikhulu kunezingu-0</string>
+    <string name="empty_amount_error">Isamba sokukhokhiswa asikwazi ukungabi nalutho</string>
+    <string name="account_load_fail_message">Yehlulekile ukulayisha i-akhawunti</string>
+    <string name="fee_calculation_fail_message">Yehlulekile ukubala ukuthengiselana, sicela uzame futhi</string>
+    <string name="init_address_message">Kufanele usethe ikheli lakho lokuthola esikrinini sangaphambilini ngaphambi kokuthatha izinkokhelo.</string>
+
+    
+    <string name="pra_title">I-PRA-% s</string>
+    <string name="current_balance_label">Ibhalansi yamanje:</string>
+    <string name="charge_amount_label">Inani lokukhokha:</string>
+    <string name="transaction_fee_label">I-Transaction Fee:</string>
+    <string name="remaining_balance_label">Ukulinganisela okuhlalayo:</string>
+    <string name="authorize_title">Skena ukuze ugunyaze ukuThengiswa</string>
+    <string name="building_transaction">Ukwakhiwa Kwezokuxhumana ...</string>
+    <string name="processing_transaction">Iyacubungula ukuThutha ...</string>
+    <string name="transaction_success">Ukuthengisana kuphumelele</string>
+    <string name="transaction_failed_message">Ukuthengiswa kuhlulekile, sicela uzame futhi</string>
+    <string name="potentially_processed_message">Lokhu kuthengiselana kungenzeka kusetshenziswe kakade. Sicela ubuyele esikrinini esikhulu bese uhlola ukuthengiswa kwamuva.</string>
+    <string name="failed_build_transaction_title">Ukwehluleka kokwenza umsebenzi</string>
+    <string name="failed_build_transaction_message">Yehlulekile ukwakha ukuthengiselana. Ngicela uzame futhi.</string>
+
+    
+    <string name="write_nfc_message">Sicela ufake ukhiye wangasese we-akhawunti oyifisa ukubhala ku-wristband.</string>
+    <string name="private_key_hint">Ukhiye Wobumfihlo</string>
+    <string name="private_key_length_error">Ukhiye wangasese kumele ube nezinhlamvu ezingu-56 ubude</string>
+    <string name="private_key_prefix_error">Ukhiye wangasese kumele uqale ngencwadi \ &amp;#39;S \&amp;#39;</string>
+    <string name="private_key_invalid_error">Ukhiye wangasese ongavumelekile</string>
+    <string name="private_key_write_failure">Bhala Ukuhluleka!</string>
+    <string name="private_key_write_success">Bhala Impumelelo!</string>
+    <string name="private_key_write_pending">Skena i-New GiveDirect Wallet ...</string>
+    <string name="write_wristband">Bhala i-GiveDirect Wallet</string>
+    <string name="private_key_encryption_failure">Yehlulekile ukubethela ukhiye wangasese. Ngicela uzame futhi.</string>
+
+    
+    <string name="about_fragment_title">Mayelana</string>
+    <string name="terms_and_conditions_link">Imigomo Nemibandela Yokusebenzisa</string>
+    <string name="privacy_policy_link">Inqubomgomo yobumfihlo</string>
+    <string name="source_code_link">Ikhodi yomthombo</string>
+    <string name="contact_link">Xhumana no-GiveDirect</string>
+    <string name="website_link">Vakashela Iwebhusayithi</string>
+    <string name="contact_subject">Ukunikezwa kwe-GiveDirect</string>
+    <string name="contact_body">Sicela usazise ukuthi senza kanjani!</string>
+    <string name="contact_chooser_title">I-Email GiveDirect</string>
+
+</resources>

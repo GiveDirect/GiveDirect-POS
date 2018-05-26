@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">GiveDirectPOS</string>
+    
+    <string name="company_name_spaced">GiveDirect</string>
+    <string name="platform_powered">PLATFORM POWERED</string>
+
+    <string name="okay">はい</string>
+    <string name="retry">リトライ</string>
+    <string name="next">次</string>
+    <string name="error">エラー</string>
+    <string name="lumens_balance">％sルーメン</string>
+
+    
+    <string name="nav_drawer_about">約</string>
+    <string name="nav_drawer_write_wristband">GiveDirect Walletを書く</string>
+
+    
+    <string name="operation_account_created">アカウントが作成されました</string>
+    <string name="operation_payment">支払い</string>
+    <string name="operation_path_payment">パス支払い</string>
+    <string name="operation_manage_offer">オファーマネージド</string>
+    <string name="operation_create_passive_offer">パッシブオファーが作成されました</string>
+    <string name="operation_set_options">オプション設定</string>
+    <string name="operation_change_trust">信頼関係が変更されました</string>
+    <string name="operation_allow_trust">許可された信頼</string>
+    <string name="operation_account_merge">アカウントの結合</string>
+    <string name="operation_inflation">インフレラン</string>
+    <string name="operation_manage_data">変更されたデータエントリ</string>
+    <string name="operation_unknown">未知の</string>
+
+    <string name="address_validation">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789</string>
+
+    
+    <string name="load_home_error_title">エラー</string>
+    <string name="load_home_error_message">読み込みに失敗しました</string>
+    <string name="nfc_parse_error">NFCの解析に失敗しました</string>
+    <string name="nfc_malformed_error">不正なNFCペイロード</string>
+    <string name="address_init_required_for_write">GiveDirect Wallet書き込み機能を使用するには、受信アドレスを設定する必要があります。</string>
+
+    
+    <string name="setup_message">資金を受け取るために使用するパブリックアドレスを入力してください。</string>
+    <string name="receiving_address_hint">受信アドレス</string>
+    <string name="receiving_address_length_error">住所は56文字でなければなりません</string>
+    <string name="receiving_address_prefix_error">アドレスは文字\ &amp;#39;G \&amp;#39;で始まる必要があります</string>
+    <string name="receiving_address_invalid_error">無効なアドレス</string>
+    <string name="receiving_address_uninitialized_error_title">アカウントが初期化されていません</string>
+    <string name="receiving_address_uninitialized_error_message">先に進む前にまず1ルーメン（XLM）を送ってこのアカウントを初期化してください。</string>
+    <string name="receiving_address_not_whitelisted_title">アカウントはGiveDirectのファイルにありません</string>
+    <string name="receiving_address_not_whitelisted_message">GiveDirectのサポートにアクセスしてください。</string>
+    <string name="receiving_address_unknown_error_title">おっとっと！</string>
+    <string name="receiving_address_unknown_error_message">何かが間違っていた。もう一度お試しください。</string>
+    <string name="receiving_address_lookup_progress">アドレスを検索しています...</string>
+    <string name="receiving_address_set">受信アドレスの設定</string>
+
+    
+    <string name="recent_transactions_title">最近の取引</string>
+    <string name="scan_title">スキャンで残高を確認する</string>
+    <string name="date_label">日付：</string>
+    <string name="operation_type_label">実行されたアクション：</string>
+    <string name="memo_label">メモ：</string>
+    <string name="recipient_label">受信者：</string>
+    <string name="sender_label">送信者：</string>
+    <string name="receive_amount_prefix">&amp;#160;％1 $ s％2 $ s</string>
+    <string name="send_amount_prefix"> - ％1 $ s％2 $ s</string>
+    <string name="failed_load_transactions">トランザクションのロードに失敗しました</string>
+    <string name="trustee_label">受託者：</string>
+    <string name="trustor_label">トラスト：</string>
+    <string name="asset_label">資産：</string>
+    <string name="offer_id_label">オファーID：</string>
+    <string name="selling_asset_code_label">アセットコードの販売：</string>
+    <string name="buying_asset_code_label">資産コードを購入する：</string>
+    <string name="selling_amount_label">売り金額：</string>
+    <string name="buying_price_label">購入価格：</string>
+    <string name="merged_into_label">合併したもの：</string>
+    <string name="entry_name_label">エントリ名：</string>
+    <string name="entry_value_label">エントリ値：</string>
+
+    
+    <string name="pra_label">PRA-％s：</string>
+    <string name="balance_label">利用可能残高：</string>
+    <string name="process_payment">支払処理</string>
+    <string name="amount_hint">料金の額</string>
+    <string name="insufficient_funds_error">残高不足</string>
+    <string name="greater_than_zero_error">電荷量は0より大きくなければなりません</string>
+    <string name="empty_amount_error">課金額は空にできません</string>
+    <string name="account_load_fail_message">アカウントを読み込めませんでした</string>
+    <string name="fee_calculation_fail_message">トランザクションの計算に失敗しました。もう一度お試しください</string>
+    <string name="init_address_message">支払いを受ける前に、前画面で受取人住所を設定する必要があります。</string>
+
+    
+    <string name="pra_title">PRA-％s</string>
+    <string name="current_balance_label">経常収支：</string>
+    <string name="charge_amount_label">料金：</string>
+    <string name="transaction_fee_label">取引手数料：</string>
+    <string name="remaining_balance_label">保たれているバランス：</string>
+    <string name="authorize_title">スキャンしてトランザクションを承認する</string>
+    <string name="building_transaction">トランザクションの作成...</string>
+    <string name="processing_transaction">トランザクションの処理中...</string>
+    <string name="transaction_success">成功した取引</string>
+    <string name="transaction_failed_message">トランザクションが失敗しました。もう一度お試しください</string>
+    <string name="potentially_processed_message">この取引はすでに処理されている可能性があります。メイン画面に戻り、最近の取引を確認してください。</string>
+    <string name="failed_build_transaction_title">トランザクションビルドの失敗</string>
+    <string name="failed_build_transaction_message">トランザクションの作成に失敗しました。もう一度お試しください。</string>
+
+    
+    <string name="write_nfc_message">リストバンドに書きたいアカウントの秘密鍵を入力してください。</string>
+    <string name="private_key_hint">秘密鍵</string>
+    <string name="private_key_length_error">秘密鍵は56文字でなければなりません</string>
+    <string name="private_key_prefix_error">秘密鍵は\ &amp;#39;S \&amp;#39;文字で始まる必要があります</string>
+    <string name="private_key_invalid_error">無効な秘密鍵</string>
+    <string name="private_key_write_failure">書き込み失敗！</string>
+    <string name="private_key_write_success">成功をお祈りください！</string>
+    <string name="private_key_write_pending">新しいGiveDirectウォレットをスキャンする...</string>
+    <string name="write_wristband">GiveDirect Walletを書く</string>
+    <string name="private_key_encryption_failure">秘密鍵の暗号化に失敗しました。もう一度お試しください。</string>
+
+    
+    <string name="about_fragment_title">約</string>
+    <string name="terms_and_conditions_link">利用規約と条件</string>
+    <string name="privacy_policy_link">個人情報保護方針</string>
+    <string name="source_code_link">ソースコード</string>
+    <string name="contact_link">連絡先GiveDirect</string>
+    <string name="website_link">ウェブサイトを訪問</string>
+    <string name="contact_subject">GiveDirectのサポート</string>
+    <string name="contact_body">私たちのやり方を教えてください！</string>
+    <string name="contact_chooser_title">Email GiveDirect</string>
+
+</resources>
