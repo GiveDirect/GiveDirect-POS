@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">GiveDirectPOS</string>
+    <!-- Wrapped spaces to work around issue with TextView cutting off last letter -->
+    <string name="company_name_spaced">&#160;GiveDirect&#160;</string>
+    <string name="platform_powered">PLATFORM POWERED</string>
+
+    <string name="okay">Okay</string>
+    <string name="retry">Retry</string>
+    <string name="next">Next</string>
+    <string name="error">Error</string>
+    <string name="lumens_balance">%s Lumens</string>
+
+    <!-- Navigation Menu -->
+    <string name="nav_drawer_about">About</string>
+    <string name="nav_drawer_write_wristband">Write Wristband</string>
+
+    <!-- Operation Friendly Names -->
+    <string name="operation_account_created">Account Created</string>
+    <string name="operation_payment">Payment</string>
+    <string name="operation_path_payment">Path Payment</string>
+    <string name="operation_manage_offer">Offer Managed</string>
+    <string name="operation_create_passive_offer">Passive Offer Created</string>
+    <string name="operation_set_options">Options Set</string>
+    <string name="operation_change_trust">Trust Modified</string>
+    <string name="operation_allow_trust">Trust Allowed</string>
+    <string name="operation_account_merge">Account Merged</string>
+    <string name="operation_inflation">Inflation Run</string>
+    <string name="operation_manage_data">Data Entry Modified</string>
+    <string name="operation_unknown">UNKNOWN</string>
+
+    <string name="address_validation">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789</string>
+
+    <!-- Home Screen -->
+    <string name="load_home_error_title">Error</string>
+    <string name="load_home_error_message">Failed to load</string>
+    <string name="nfc_parse_error">Failed to parse NFC</string>
+    <string name="nfc_malformed_error">Malformed NFC payload</string>
+    <string name="address_init_required_for_write">You must configure your receiving address to gain wristband writing functionality.</string>
+
+    <!-- Setup Screen -->
+    <string name="setup_message">Please enter the public address you will use to receive funds.</string>
+    <string name="receiving_address_hint">Receiving Address</string>
+    <string name="receiving_address_length_error">Address must be 56 characters long</string>
+    <string name="receiving_address_prefix_error">Address must begin with the letter \'G\'</string>
+    <string name="receiving_address_invalid_error">Invalid address</string>
+    <string name="receiving_address_uninitialized_error_title">Account Not Initialized</string>
+    <string name="receiving_address_uninitialized_error_message">Please initialize this account by first sending 1 Lumen (XLM) before proceeding.</string>
+    <string name="receiving_address_not_whitelisted_title">Account Not On File</string>
+    <string name="receiving_address_not_whitelisted_message">Please reach out to GiveDirect support for access.</string>
+    <string name="receiving_address_unknown_error_title">Oops!</string>
+    <string name="receiving_address_unknown_error_message">Something went wrong. Please try again.</string>
+    <string name="receiving_address_lookup_progress">Looking up address&#8230;</string>
+    <string name="receiving_address_set">Set Receiving Address</string>
+
+    <!-- Transactions Screen -->
+    <string name="recent_transactions_title">Recent Transactions</string>
+    <string name="scan_title">Scan To Check Balance</string>
+    <string name="date_label">Date:</string>
+    <string name="operation_type_label">Action Performed:</string>
+    <string name="memo_label">Memo:</string>
+    <string name="recipient_label">Recipient:</string>
+    <string name="sender_label">Sender:</string>
+    <string name="receive_amount_prefix">+%1$s %2$s</string>
+    <string name="send_amount_prefix">-%1$s %2$s</string>
+    <string name="failed_load_transactions">Failed to load transactions</string>
+    <string name="trustee_label">Trustee:</string>
+    <string name="trustor_label">Trustor:</string>
+    <string name="asset_label">Asset:</string>
+    <string name="offer_id_label">Offer Id:</string>
+    <string name="selling_asset_code_label">Sell Asset Code:</string>
+    <string name="buying_asset_code_label">Buy Asset Code:</string>
+    <string name="selling_amount_label">Selling Amount:</string>
+    <string name="buying_price_label">Buying Price:</string>
+    <string name="merged_into_label">Merged Into:</string>
+    <string name="entry_name_label">Entry Name:</string>
+    <string name="entry_value_label">Entry Value:</string>
+
+    <!-- Account Summary Screen -->
+    <string name="pra_label">PRA-%s:</string>
+    <string name="balance_label">Available Balance:</string>
+    <string name="process_payment">Process Payment</string>
+    <string name="amount_hint">Charge Amount</string>
+    <string name="insufficient_funds_error">Insufficient funds</string>
+    <string name="greater_than_zero_error">Charge amount must be greater than 0</string>
+    <string name="empty_amount_error">Charge amount cannot be empty</string>
+    <string name="account_load_fail_message">Failed to load account</string>
+    <string name="fee_calculation_fail_message">Failed to calculate transaction, please try again</string>
+    <string name="init_address_message">You must set your receiving address on the previous screen before taking payments.</string>
+
+    <!-- Transaction Summary Screen -->
+    <string name="pra_title">PRA-%s</string>
+    <string name="current_balance_label">Current Balance:</string>
+    <string name="charge_amount_label">Charge Amount:</string>
+    <string name="transaction_fee_label">Transaction Fee:</string>
+    <string name="remaining_balance_label">Remaining Balance:</string>
+    <string name="authorize_title">Scan to Authorize Transaction</string>
+    <string name="building_transaction">Building Transaction&#8230;</string>
+    <string name="processing_transaction">Processing Transaction&#8230;</string>
+    <string name="transaction_success">Transaction Successful</string>
+    <string name="transaction_failed_message">Transaction failed, please try again</string>
+    <string name="potentially_processed_message">This transaction may have already been processed. Please return to the main screen and check recent transactions.</string>
+    <string name="failed_build_transaction_title">Transaction Build Failure</string>
+    <string name="failed_build_transaction_message">Failed to build transaction. Please try again.</string>
+
+    <!-- Write NFC Screen -->
+    <string name="write_nfc_message">Please enter the private key of the account you wish to write to the wristband.</string>
+    <string name="private_key_hint">Private Key</string>
+    <string name="private_key_length_error">Private key must be 56 characters long</string>
+    <string name="private_key_prefix_error">Private key must begin with the letter \'S\'</string>
+    <string name="private_key_invalid_error">Invalid private key</string>
+    <string name="private_key_write_failure">Write Failure!</string>
+    <string name="private_key_write_success">Write Success!</string>
+    <string name="private_key_write_pending">Scan the wristband&#8230;</string>
+    <string name="write_wristband">Write to Wristband</string>
+    <string name="private_key_encryption_failure">Failed to encrypt private key. Please try again.</string>
+
+    <!-- About Fragment -->
+    <string name="about_fragment_title">About</string>
+    <string name="terms_and_conditions_link">Terms and Conditions of Use</string>
+    <string name="privacy_policy_link">Privacy Policy</string>
+    <string name="source_code_link">Source Code</string>
+    <string name="contact_link">Contact GiveDirect</string>
+    <string name="website_link">Visit Website</string>
+    <string name="contact_subject">GiveDirect Support</string>
+    <string name="contact_body">Please let us know how we\'re doing!</string>
+    <string name="contact_chooser_title">Email GiveDirect</string>
+
+</resources>
+
