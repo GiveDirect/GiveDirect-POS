@@ -45,7 +45,7 @@
     <string name="receiving_address_invalid_error">Invalid address</string>
     <string name="receiving_address_uninitialized_error_title">Account Not Initialized</string>
     <string name="receiving_address_uninitialized_error_message">Please initialize this account by first sending 1 Lumen (XLM) before proceeding.</string>
-    <string name="receiving_address_not_whitelisted_title">Account Not on file at GiveDirect</string>
+    <string name="receiving_address_not_whitelisted_title">Account not on file at GiveDirect</string>
     <string name="receiving_address_not_whitelisted_message">Please reach out to GiveDirect support for access.</string>
     <string name="receiving_address_unknown_error_title">Oops!</string>
     <string name="receiving_address_unknown_error_message">Something went wrong. Please try again.</string>
@@ -86,6 +86,7 @@
     <string name="account_load_fail_message">Failed to load account</string>
     <string name="fee_calculation_fail_message">Failed to calculate transaction, please try again</string>
     <string name="init_address_message">You must set your receiving address on the previous screen before taking payments.</string>
+    <string name="account_not_initialized_message">This GiveDirect wallet has not been initialized yet.</string>
 
     <!-- Transaction Summary Screen -->
     <string name="pra_title">PRA-%s</string>
@@ -103,16 +104,9 @@
     <string name="failed_build_transaction_message">Failed to build transaction. Please try again.</string>
 
     <!-- Write NFC Screen -->
-    <string name="write_nfc_message">Please enter the private key of the account you wish to write to the wristband.</string>
-    <string name="private_key_hint">Private Key</string>
-    <string name="private_key_length_error">Private key must be 56 characters long</string>
-    <string name="private_key_prefix_error">Private key must begin with the letter \'S\'</string>
-    <string name="private_key_invalid_error">Invalid private key</string>
-    <string name="private_key_write_failure">Write Failure!</string>
-    <string name="private_key_write_success">Write Success!</string>
-    <string name="private_key_write_pending">Scan the New GiveDirect Wallet&#8230;</string>
-    <string name="write_wristband">Write GiveDirect Wallet</string>
-    <string name="private_key_encryption_failure">Failed to encrypt private key. Please try again.</string>
+    <string name="write_nfc_message">Scan the GiveDirect Wallet you wish to overwrite a new account to.</string>
+    <string name="success_wallet_write">Last successful write:</string>
+    <string name="failed_wallet_write">GiveDirect Wallet write failure. Please try again.</string>
 
     <!-- About Fragment -->
     <string name="about_fragment_title">About</string>
@@ -126,4 +120,3 @@
     <string name="contact_chooser_title">Email GiveDirect</string>
 
 </resources>
-

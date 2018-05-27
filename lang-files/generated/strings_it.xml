@@ -45,7 +45,7 @@
     <string name="receiving_address_invalid_error">Indirizzo non valido</string>
     <string name="receiving_address_uninitialized_error_title">Account non inizializzato</string>
     <string name="receiving_address_uninitialized_error_message">Si prega di inizializzare questo account inviando prima 1 Lumen (XLM) prima di procedere.</string>
-    <string name="receiving_address_not_whitelisted_title">Account Non disponibile su GiveDirect</string>
+    <string name="receiving_address_not_whitelisted_title">Account non presente su GiveDirect</string>
     <string name="receiving_address_not_whitelisted_message">Contatta l&amp;#39;assistenza GiveDirect per l&amp;#39;accesso.</string>
     <string name="receiving_address_unknown_error_title">Oops!</string>
     <string name="receiving_address_unknown_error_message">Qualcosa è andato storto. Per favore riprova.</string>
@@ -86,6 +86,7 @@
     <string name="account_load_fail_message">Impossibile caricare l&amp;#39;account</string>
     <string name="fee_calculation_fail_message">Impossibile calcolare la transazione, per favore riprova</string>
     <string name="init_address_message">È necessario impostare l&amp;#39;indirizzo di ricezione nella schermata precedente prima di effettuare i pagamenti.</string>
+    <string name="account_not_initialized_message">Questo portafoglio di GiveDirect non è ancora stato inizializzato.</string>
 
     
     <string name="pra_title">PRA-% s</string>
@@ -103,16 +104,9 @@
     <string name="failed_build_transaction_message">Impossibile creare una transazione. Per favore riprova.</string>
 
     
-    <string name="write_nfc_message">Inserisci la chiave privata dell&amp;#39;account che desideri scrivere sul braccialetto.</string>
-    <string name="private_key_hint">Chiave privata</string>
-    <string name="private_key_length_error">La chiave privata deve avere una lunghezza di 56 caratteri</string>
-    <string name="private_key_prefix_error">La chiave privata deve iniziare con la lettera \ &amp;#39;S \&amp;#39;</string>
-    <string name="private_key_invalid_error">Chiave privata non valida</string>
-    <string name="private_key_write_failure">Scrivi Failure!</string>
-    <string name="private_key_write_success">Scrivi il successo!</string>
-    <string name="private_key_write_pending">Scansiona il nuovo portafoglio di GiveDirect ...</string>
-    <string name="write_wristband">Scrivi il portafoglio di GiveDirect</string>
-    <string name="private_key_encryption_failure">Impossibile crittografare la chiave privata. Per favore riprova.</string>
+    <string name="write_nfc_message">Scansiona il Portafoglio GiveDirect a cui desideri sovrascrivere un nuovo account.</string>
+    <string name="success_wallet_write">Ultima scrittura riuscita:</string>
+    <string name="failed_wallet_write">Errore di scrittura GiveDirect Wallet. Per favore riprova.</string>
 
     
     <string name="about_fragment_title">Di</string>

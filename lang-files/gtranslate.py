@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+import os
+from shutil import copyfile,rmtree
 
 # This python skript extracts string resources, calls OM GOOGLE
 # PLEASE TRANSLATE and reassambles a new strings.xml 
@@ -8,11 +10,6 @@
 # Nevertheeels, UTF8 encoding of chinese letters and such works.
 
 # run via "python3.5 gtranslate.py"
-
-INPUTLANGUAGE='en'
-OUTPUTLANGUAGE='ru'
-INFILE='strings.xml'
-OUTFILE='strings_ru.xml'
 
 ### LANGUAGE CODES FOR REFERENCE
 
@@ -178,15 +175,31 @@ def translate(to_translate, to_language="auto", language="auto"):
  parsed2=parsed1[:parsed1.find(after_trans)]
  return parsed2
 
-tree = ET.parse(INFILE)
-root = tree.getroot()
-for i in range(len(root)):
-    print((str(i)+" ========================="))
-    totranslate=root[i].text
-    print(totranslate)
-    print("-->")
-    if(totranslate!=None):
-        root[i].text=translate(totranslate,OUTPUTLANGUAGE,INPUTLANGUAGE)
-        print(root[i].text)
+INPUTLANGUAGE='en'
+INFILE='strings.xml'
+DIR_NAME='generated'
 
-tree.write(OUTFILE, encoding='utf-8')
+rmtree(DIR_NAME)
+os.makedirs(DIR_NAME)
+    
+copyfile(INFILE, DIR_NAME + "/strings_en.xml")
+
+# define langs you want files for here
+langs = ["am","ar","es","fr","hi","it","ja","pt-BR","ru","sw","zh-CN","zu"]
+
+for lang in langs:
+    print("\n\n*********** Creating file for: " + str(lang) + "  ****************\n\n")
+    tree = ET.parse(INFILE)
+    root = tree.getroot()
+
+    OUTPUTLANGUAGE=lang
+    OUTFILE=DIR_NAME + "/strings_" + lang + ".xml"
+    for i in range(len(root)):
+       print((str(i)+" ========================="))
+       totranslate=root[i].text
+       print(totranslate)
+       print("-->")
+       if(totranslate!=None):
+          root[i].text=translate(totranslate,OUTPUTLANGUAGE,INPUTLANGUAGE)
+          print(root[i].text)
+    tree.write(OUTFILE, encoding='utf-8')

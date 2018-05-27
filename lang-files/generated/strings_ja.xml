@@ -45,7 +45,7 @@
     <string name="receiving_address_invalid_error">無効なアドレス</string>
     <string name="receiving_address_uninitialized_error_title">アカウントが初期化されていません</string>
     <string name="receiving_address_uninitialized_error_message">先に進む前にまず1ルーメン（XLM）を送ってこのアカウントを初期化してください。</string>
-    <string name="receiving_address_not_whitelisted_title">アカウントはGiveDirectのファイルにありません</string>
+    <string name="receiving_address_not_whitelisted_title">GiveDirectのアカウントにないアカウント</string>
     <string name="receiving_address_not_whitelisted_message">GiveDirectのサポートにアクセスしてください。</string>
     <string name="receiving_address_unknown_error_title">おっとっと！</string>
     <string name="receiving_address_unknown_error_message">何かが間違っていた。もう一度お試しください。</string>
@@ -86,6 +86,7 @@
     <string name="account_load_fail_message">アカウントを読み込めませんでした</string>
     <string name="fee_calculation_fail_message">トランザクションの計算に失敗しました。もう一度お試しください</string>
     <string name="init_address_message">支払いを受ける前に、前画面で受取人住所を設定する必要があります。</string>
+    <string name="account_not_initialized_message">このGiveDirectウォレットはまだ初期化されていません。</string>
 
     
     <string name="pra_title">PRA-％s</string>
@@ -103,16 +104,9 @@
     <string name="failed_build_transaction_message">トランザクションの作成に失敗しました。もう一度お試しください。</string>
 
     
-    <string name="write_nfc_message">リストバンドに書きたいアカウントの秘密鍵を入力してください。</string>
-    <string name="private_key_hint">秘密鍵</string>
-    <string name="private_key_length_error">秘密鍵は56文字でなければなりません</string>
-    <string name="private_key_prefix_error">秘密鍵は\ &amp;#39;S \&amp;#39;文字で始まる必要があります</string>
-    <string name="private_key_invalid_error">無効な秘密鍵</string>
-    <string name="private_key_write_failure">書き込み失敗！</string>
-    <string name="private_key_write_success">成功をお祈りください！</string>
-    <string name="private_key_write_pending">新しいGiveDirectウォレットをスキャンする...</string>
-    <string name="write_wristband">GiveDirect Walletを書く</string>
-    <string name="private_key_encryption_failure">秘密鍵の暗号化に失敗しました。もう一度お試しください。</string>
+    <string name="write_nfc_message">新しいアカウントを上書きしたいGiveDirectウォレットをスキャンします。</string>
+    <string name="success_wallet_write">最後に成功した書き込み：</string>
+    <string name="failed_wallet_write">GiveDirect Wallet書き込みに失敗しました。もう一度お試しください。</string>
 
     
     <string name="about_fragment_title">約</string>

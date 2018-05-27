@@ -45,7 +45,7 @@
     <string name="receiving_address_invalid_error">عنوان خاطئ</string>
     <string name="receiving_address_uninitialized_error_title">الحساب غير مهيأ</string>
     <string name="receiving_address_uninitialized_error_message">الرجاء تهيئة هذا الحساب عن طريق إرسال 1 Lumen (XLM) أولاً قبل المتابعة.</string>
-    <string name="receiving_address_not_whitelisted_title">الحساب غير موجود بالملف في GiveDirect</string>
+    <string name="receiving_address_not_whitelisted_title">الحساب ليس في الملف في GiveDirect</string>
     <string name="receiving_address_not_whitelisted_message">يرجى الاتصال بدعم GiveDirect للوصول.</string>
     <string name="receiving_address_unknown_error_title">وجه الفتاة!</string>
     <string name="receiving_address_unknown_error_message">هناك خطأ ما. حاول مرة اخرى.</string>
@@ -86,6 +86,7 @@
     <string name="account_load_fail_message">فشل تحميل الحساب</string>
     <string name="fee_calculation_fail_message">فشل حساب المعاملة ، يرجى المحاولة مرة أخرى</string>
     <string name="init_address_message">يجب عليك تعيين عنوان استلامك على الشاشة السابقة قبل استلام الدفعات.</string>
+    <string name="account_not_initialized_message">لم يتم تهيئة محفظة GiveDirect هذه بعد.</string>
 
     
     <string name="pra_title">PRA-&amp;#1642; الصورة</string>
@@ -103,16 +104,9 @@
     <string name="failed_build_transaction_message">فشل في بناء المعاملة. حاول مرة اخرى.</string>
 
     
-    <string name="write_nfc_message">يرجى إدخال المفتاح الخاص للحساب الذي ترغب في كتابته إلى سوار المعصم.</string>
-    <string name="private_key_hint">مفتاح سري</string>
-    <string name="private_key_length_error">يجب أن يكون المفتاح الخاص 56 حرفًا</string>
-    <string name="private_key_prefix_error">يجب أن يبدأ المفتاح الخاص بالحرف \ &amp;#39;S \&amp;#39;</string>
-    <string name="private_key_invalid_error">مفتاح خاص غير صالح</string>
-    <string name="private_key_write_failure">اكتب الفشل!</string>
-    <string name="private_key_write_success">اكتب النجاح!</string>
-    <string name="private_key_write_pending">مسح محفظة GiveDirect الجديدة ...</string>
-    <string name="write_wristband">اكتب GiveDirect Wallet</string>
-    <string name="private_key_encryption_failure">فشل تشفير المفتاح الخاص. حاول مرة اخرى.</string>
+    <string name="write_nfc_message">قم بمسح محفظة GiveDirect التي ترغب في استبدالها بحساب جديد.</string>
+    <string name="success_wallet_write">آخر كتابة ناجحة:</string>
+    <string name="failed_wallet_write">فشل GiveDirect محفظة الكتابة. حاول مرة اخرى.</string>
 
     
     <string name="about_fragment_title">حول</string>

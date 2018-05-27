@@ -86,6 +86,7 @@
     <string name="account_load_fail_message">Error al cargar la cuenta</string>
     <string name="fee_calculation_fail_message">Error al calcular la transacción, intente de nuevo</string>
     <string name="init_address_message">Debe configurar su dirección de recepción en la pantalla anterior antes de realizar pagos.</string>
+    <string name="account_not_initialized_message">Este monedero GiveDirect aún no se ha inicializado.</string>
 
     
     <string name="pra_title">PRA-% s</string>
@@ -103,16 +104,9 @@
     <string name="failed_build_transaction_message">Error al construir la transacción Inténtalo de nuevo.</string>
 
     
-    <string name="write_nfc_message">Ingrese la clave privada de la cuenta que desea escribir en la pulsera.</string>
-    <string name="private_key_hint">Llave privada</string>
-    <string name="private_key_length_error">La clave privada debe tener 56 caracteres de largo</string>
-    <string name="private_key_prefix_error">La clave privada debe comenzar con la letra \ &amp;#39;S \&amp;#39;</string>
-    <string name="private_key_invalid_error">Clave privada no válida</string>
-    <string name="private_key_write_failure">¡Escriba Fracaso!</string>
-    <string name="private_key_write_success">¡Escribe Éxito!</string>
-    <string name="private_key_write_pending">Escanee la nueva billetera GiveDirect ...</string>
-    <string name="write_wristband">Escribir GiveDirect Wallet</string>
-    <string name="private_key_encryption_failure">Error al cifrar la clave privada. Inténtalo de nuevo.</string>
+    <string name="write_nfc_message">Escanee la Cartera GiveDirect sobre la que desea sobrescribir una nueva cuenta.</string>
+    <string name="success_wallet_write">Última escritura exitosa:</string>
+    <string name="failed_wallet_write">Error de escritura de GiveDirect Wallet. Inténtalo de nuevo.</string>
 
     
     <string name="about_fragment_title">Acerca de</string>

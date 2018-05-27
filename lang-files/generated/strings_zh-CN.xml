@@ -86,6 +86,7 @@
     <string name="account_load_fail_message">无法加载帐户</string>
     <string name="fee_calculation_fail_message">无法计算交易，请重试</string>
     <string name="init_address_message">在付款之前，您必须在前一个屏幕上设置您的接收地址。</string>
+    <string name="account_not_initialized_message">GiveDirect钱包尚未初始化。</string>
 
     
     <string name="pra_title">PRA-％S</string>
@@ -103,16 +104,9 @@
     <string name="failed_build_transaction_message">无法建立交易。请再试一次。</string>
 
     
-    <string name="write_nfc_message">请输入您希望写入腕带的帐号的私钥。</string>
-    <string name="private_key_hint">私钥</string>
-    <string name="private_key_length_error">私钥长度必须为56个字符</string>
-    <string name="private_key_prefix_error">私钥必须以字母“S”开头</string>
-    <string name="private_key_invalid_error">私人密钥无效</string>
-    <string name="private_key_write_failure">写入失败！</string>
-    <string name="private_key_write_success">写成功！</string>
-    <string name="private_key_write_pending">扫描新的GiveDirect钱包...</string>
-    <string name="write_wristband">编写GiveDirect钱包</string>
-    <string name="private_key_encryption_failure">无法加密私钥。请再试一次。</string>
+    <string name="write_nfc_message">扫描您想要覆盖新帐户的GiveDirect电子钱包。</string>
+    <string name="success_wallet_write">上次成功写入：</string>
+    <string name="failed_wallet_write">GiveDirect钱包写入失败。请再试一次。</string>
 
     
     <string name="about_fragment_title">关于</string>

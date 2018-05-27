@@ -45,7 +45,7 @@
     <string name="receiving_address_invalid_error">Недействительный адрес</string>
     <string name="receiving_address_uninitialized_error_title">Не инициализирована учетная запись</string>
     <string name="receiving_address_uninitialized_error_message">Пожалуйста, инициализируйте этот аккаунт, сначала отправив 1 Lumen (XLM), прежде чем продолжить.</string>
-    <string name="receiving_address_not_whitelisted_title">Учетная запись отсутствует в файле в GiveDirect</string>
+    <string name="receiving_address_not_whitelisted_title">Учетная запись не в файле в GiveDirect</string>
     <string name="receiving_address_not_whitelisted_message">Просьба обратиться к поддержке GiveDirect для доступа.</string>
     <string name="receiving_address_unknown_error_title">К сожалению!</string>
     <string name="receiving_address_unknown_error_message">Что-то пошло не так. Пожалуйста, попробуйте еще раз.</string>
@@ -86,6 +86,7 @@
     <string name="account_load_fail_message">Не удалось загрузить учетную запись</string>
     <string name="fee_calculation_fail_message">Не удалось вычислить транзакцию, повторите попытку</string>
     <string name="init_address_message">Перед принятием платежей вы должны установить свой принимающий адрес на предыдущем экране.</string>
+    <string name="account_not_initialized_message">Этот кошелек GiveDirect еще не инициализирован.</string>
 
     
     <string name="pra_title">PRA-% s</string>
@@ -103,16 +104,9 @@
     <string name="failed_build_transaction_message">Не удалось создать транзакцию. Пожалуйста, попробуйте еще раз.</string>
 
     
-    <string name="write_nfc_message">Введите секретный ключ учетной записи, которую вы хотите записать на браслет.</string>
-    <string name="private_key_hint">Закрытый ключ</string>
-    <string name="private_key_length_error">Закрытый ключ должен содержать 56 символов</string>
-    <string name="private_key_prefix_error">Частный ключ должен начинаться с буквы «S»</string>
-    <string name="private_key_invalid_error">Недопустимый закрытый ключ</string>
-    <string name="private_key_write_failure">Ошибка записи!</string>
-    <string name="private_key_write_success">Напишите успех!</string>
-    <string name="private_key_write_pending">Сканировать новый кошелек GiveDirect ...</string>
-    <string name="write_wristband">Создать кошелек GiveDirect</string>
-    <string name="private_key_encryption_failure">Не удалось зашифровать закрытый ключ. Пожалуйста, попробуйте еще раз.</string>
+    <string name="write_nfc_message">Сканируйте Копию GiveDirect, к которой вы хотите переписать новую учетную запись.</string>
+    <string name="success_wallet_write">Последняя успешная запись:</string>
+    <string name="failed_wallet_write">Ошибка WriteDirect Wallet. Пожалуйста, попробуйте еще раз.</string>
 
     
     <string name="about_fragment_title">Около</string>

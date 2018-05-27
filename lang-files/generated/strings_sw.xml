@@ -45,7 +45,7 @@
     <string name="receiving_address_invalid_error">Anwani isiyo sahihi</string>
     <string name="receiving_address_uninitialized_error_title">Akaunti Haijaanzishwa</string>
     <string name="receiving_address_uninitialized_error_message">Tafadhali ingiza akaunti hii kwa kwanza kutuma 1 Lumen (XLM) kabla ya kuendelea.</string>
-    <string name="receiving_address_not_whitelisted_title">Akaunti Si kwenye faili katika GiveDirect</string>
+    <string name="receiving_address_not_whitelisted_title">Akaunti sio kwenye faili kwenye GiveDirect</string>
     <string name="receiving_address_not_whitelisted_message">Tafadhali fikia msaada wa GiveDirect kwa upatikanaji.</string>
     <string name="receiving_address_unknown_error_title">Lo!</string>
     <string name="receiving_address_unknown_error_message">Kitu kilichokosa. Tafadhali jaribu tena.</string>
@@ -86,6 +86,7 @@
     <string name="account_load_fail_message">Imeshindwa kupakia akaunti</string>
     <string name="fee_calculation_fail_message">Imeshindwa kuhesabu shughuli, tafadhali jaribu tena</string>
     <string name="init_address_message">Lazima uweke anwani yako ya kupokea kwenye skrini iliyopita kabla ya kuchukua malipo.</string>
+    <string name="account_not_initialized_message">Mkoba huu wa GiveDirect haujaanzishwa bado.</string>
 
     
     <string name="pra_title">PRA-% s</string>
@@ -103,16 +104,9 @@
     <string name="failed_build_transaction_message">Imeshindwa kujenga shughuli. Tafadhali jaribu tena.</string>
 
     
-    <string name="write_nfc_message">Tafadhali ingiza ufunguo wa faragha wa akaunti unayotaka kuandikia kwenye kioo.</string>
-    <string name="private_key_hint">Muhimu wa Kibinafsi</string>
-    <string name="private_key_length_error">Ufunguo wa faragha lazima uwe wahusika 56 kwa muda mrefu</string>
-    <string name="private_key_prefix_error">Kitufe cha faragha lazima kianze na barua \ &amp;#39;S \&amp;#39;</string>
-    <string name="private_key_invalid_error">Kitufe cha siri cha batili</string>
-    <string name="private_key_write_failure">Andika Kushindwa!</string>
-    <string name="private_key_write_success">Andika Mafanikio!</string>
-    <string name="private_key_write_pending">Soma Wallet Mpya ya Walengwa ...</string>
-    <string name="write_wristband">Andika PayDirect Wallet</string>
-    <string name="private_key_encryption_failure">Imeshindwa kuficha ufunguo wa faragha. Tafadhali jaribu tena.</string>
+    <string name="write_nfc_message">Jaribu Wallet ya GiveDirect unayotaka kuandika akaunti mpya.</string>
+    <string name="success_wallet_write">Andika mafanikio ya mwisho:</string>
+    <string name="failed_wallet_write">Toa Msaada wa Toleo la Toleo la Msaada. Tafadhali jaribu tena.</string>
 
     
     <string name="about_fragment_title">Kuhusu</string>

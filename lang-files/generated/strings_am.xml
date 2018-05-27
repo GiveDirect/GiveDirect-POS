@@ -86,6 +86,7 @@
     <string name="account_load_fail_message">መለያውን መጫን አልተሳካም</string>
     <string name="fee_calculation_fail_message">ግብይቱን ማስላት አልተሳካም, እባክዎ እንደገና ይሞክሩ</string>
     <string name="init_address_message">ክፍያ ከመፈጸማቸው በፊት የመቀበያ አድራሻዎን ቀደም ባለው ማሳያ ላይ ማዘጋጀት አለብዎት.</string>
+    <string name="account_not_initialized_message">ይህ GiveDirect wallet ገና አልተጀመረም.</string>
 
     
     <string name="pra_title">PRA -% s</string>
@@ -103,16 +104,9 @@
     <string name="failed_build_transaction_message">ግብይትን መገንባት አልተሳካም. እባክዎ ዳግም ይሞክሩ.</string>
 
     
-    <string name="write_nfc_message">እባክህ በእጅህ ላይ ለመጻፍ የምትፈልገውን የግል ቁልፍ አስገባ.</string>
-    <string name="private_key_hint">የግል ቁልፍ</string>
-    <string name="private_key_length_error">የግል ቁልፍ 56 ቁምፊዎች ርዝመት ሊኖረው ይገባል</string>
-    <string name="private_key_prefix_error">የግል ቁልፍ በ \ &amp;#39;S \&amp;#39; ፊደል መጀመር አለበት</string>
-    <string name="private_key_invalid_error">ልክ ያልሆነ የግል ቁልፍ</string>
-    <string name="private_key_write_failure">አለመሳካት ጻፍ!</string>
-    <string name="private_key_write_success">ስኬት ይፃፉ!</string>
-    <string name="private_key_write_pending">አዲሱን GiveDirect Wallet ን ቃኝ ...</string>
-    <string name="write_wristband">GiveDirect Wallet ን ጻፍ</string>
-    <string name="private_key_encryption_failure">የግል ቁልፍን መመመስጠር አልተሳካም. እባክዎ ዳግም ይሞክሩ.</string>
+    <string name="write_nfc_message">አዲስ መለያ ለመተካት የፈለጉትን GiveDirect Wallet ይቃኙ.</string>
+    <string name="success_wallet_write">የመጨረሻው የተሳካ ደብዳቤ:</string>
+    <string name="failed_wallet_write">GiveDirect Wallet መጻፍ አለመቻል. እባክዎ ዳግም ይሞክሩ.</string>
 
     
     <string name="about_fragment_title">ስለ</string>

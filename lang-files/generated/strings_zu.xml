@@ -45,7 +45,7 @@
     <string name="receiving_address_invalid_error">Ikheli elingavumelekile</string>
     <string name="receiving_address_uninitialized_error_title">I-Akhawunti Ayikaqalisiwe</string>
     <string name="receiving_address_uninitialized_error_message">Sicela uqale le akhawunti ngokuthumela kuqala i-Lumen (XLM) ngaphambi kokuqhubeka.</string>
-    <string name="receiving_address_not_whitelisted_title">I-Akhawunti ayikho kwifayela ku-GiveDirect</string>
+    <string name="receiving_address_not_whitelisted_title">I-akhawunti engekho kwifayili ku-GiveDirect</string>
     <string name="receiving_address_not_whitelisted_message">Sicela uphumelele ku-GiveDirect ukwesekwa kokufinyelela.</string>
     <string name="receiving_address_unknown_error_title">Eshu!</string>
     <string name="receiving_address_unknown_error_message">Kukhona okungahambanga kahle. Ngicela uzame futhi.</string>
@@ -86,6 +86,7 @@
     <string name="account_load_fail_message">Yehlulekile ukulayisha i-akhawunti</string>
     <string name="fee_calculation_fail_message">Yehlulekile ukubala ukuthengiselana, sicela uzame futhi</string>
     <string name="init_address_message">Kufanele usethe ikheli lakho lokuthola esikrinini sangaphambilini ngaphambi kokuthatha izinkokhelo.</string>
+    <string name="account_not_initialized_message">Lesi sikhwama se-GiveDirect asikaqaliswa okwamanje.</string>
 
     
     <string name="pra_title">I-PRA-% s</string>
@@ -103,16 +104,9 @@
     <string name="failed_build_transaction_message">Yehlulekile ukwakha ukuthengiselana. Ngicela uzame futhi.</string>
 
     
-    <string name="write_nfc_message">Sicela ufake ukhiye wangasese we-akhawunti oyifisa ukubhala ku-wristband.</string>
-    <string name="private_key_hint">Ukhiye Wobumfihlo</string>
-    <string name="private_key_length_error">Ukhiye wangasese kumele ube nezinhlamvu ezingu-56 ubude</string>
-    <string name="private_key_prefix_error">Ukhiye wangasese kumele uqale ngencwadi \ &amp;#39;S \&amp;#39;</string>
-    <string name="private_key_invalid_error">Ukhiye wangasese ongavumelekile</string>
-    <string name="private_key_write_failure">Bhala Ukuhluleka!</string>
-    <string name="private_key_write_success">Bhala Impumelelo!</string>
-    <string name="private_key_write_pending">Skena i-New GiveDirect Wallet ...</string>
-    <string name="write_wristband">Bhala i-GiveDirect Wallet</string>
-    <string name="private_key_encryption_failure">Yehlulekile ukubethela ukhiye wangasese. Ngicela uzame futhi.</string>
+    <string name="write_nfc_message">Skena i-GiveDirect Wallet ufisa ukubhala phansi i-akhawunti entsha.</string>
+    <string name="success_wallet_write">Ukuphumelela kokugcina bhala:</string>
+    <string name="failed_wallet_write">Ukunikezela kwe-GiveDirect Wallet ukubhala. Ngicela uzame futhi.</string>
 
     
     <string name="about_fragment_title">Mayelana</string>
