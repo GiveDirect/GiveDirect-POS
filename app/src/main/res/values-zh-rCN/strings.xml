@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GiveDirectPOS</string>
+
+    <string name="company_name_spaced">&#160;GiveDirect&#160;</string>
+    <string name="platform_powered">平台动力</string>
+
+    <string name="okay">好的</string>
+    <string name="retry">重试</string>
+    <string name="next">下一个</string>
+    <string name="error">错误</string>
+    <string name="lumens_balance">％s流明</string>
+
+    <string name="nfc_unavailable_title">未检测到NFC</string>
+    <string name="nfc_unavailable_message">需要NFC功能才能使应用正常运行。</string>
+
+    <string name="nav_drawer_about">关于</string>
+    <string name="nav_drawer_write_wristband">编写GiveDirect钱包</string>
+
+
+    <string name="operation_account_created">帐户已创建</string>
+    <string name="operation_payment">付款</string>
+    <string name="operation_path_payment">路径支付</string>
+    <string name="operation_manage_offer">优惠管理</string>
+    <string name="operation_create_passive_offer">被动优惠已创建</string>
+    <string name="operation_set_options">选项设置</string>
+    <string name="operation_change_trust">信任已修改</string>
+    <string name="operation_allow_trust">信任允许</string>
+    <string name="operation_account_merge">帐户合并</string>
+    <string name="operation_inflation">通货膨胀运行</string>
+    <string name="operation_manage_data">数据输入已修改</string>
+    <string name="operation_unknown">未知</string>
+
+    <string name="address_validation">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789</string>
+
+
+    <string name="load_home_error_title">错误</string>
+    <string name="load_home_error_message">加载失败</string>
+    <string name="nfc_parse_error">无法解析NFC</string>
+    <string name="nfc_malformed_error">畸形的NFC有效载荷</string>
+    <string name="address_init_required_for_write">您必须配置您的接收地址才能获得GiveDirect Wallet的写入功能。</string>
+
+
+    <string name="setup_message">请输入您将用于接收资金的公共地址。</string>
+    <string name="receiving_address_hint">接收地址</string>
+    <string name="receiving_address_length_error">地址必须是56个字符</string>
+    <string name="receiving_address_prefix_error">地址必须以字母&#39;G&#39;开始</string>
+    <string name="receiving_address_invalid_error">无效地址</string>
+    <string name="receiving_address_uninitialized_error_title">帐户未初始化</string>
+    <string name="receiving_address_uninitialized_error_message">请在继续之前首先发送1 Lumen（XLM）来初始化此帐户。</string>
+    <string name="receiving_address_not_whitelisted_title">帐户不在GiveDirect上存档</string>
+    <string name="receiving_address_not_whitelisted_message">请与GiveDirect支持联系。</string>
+    <string name="receiving_address_unknown_error_title">哎呀！</string>
+    <string name="receiving_address_unknown_error_message">出了些问题。请再试一次。</string>
+    <string name="receiving_address_lookup_progress">查找地址&#8230;</string>
+    <string name="receiving_address_set">设置接收地址</string>
+
+
+    <string name="recent_transactions_title">近期交易</string>
+    <string name="scan_title">扫描检查平衡</string>
+    <string name="date_label">日期：</string>
+    <string name="operation_type_label">已执行的操作：</string>
+    <string name="memo_label">备忘录：</string>
+    <string name="recipient_label">接受者：</string>
+    <string name="sender_label">发件人：</string>
+    <string name="receive_amount_prefix">+%1$s %2$s</string>
+    <string name="send_amount_prefix">-%1$s %2$s</string>
+    <string name="failed_load_transactions">无法加载交易</string>
+    <string name="trustee_label">受托人：</string>
+    <string name="trustor_label">委托人：</string>
+    <string name="asset_label">资产：</string>
+    <string name="offer_id_label">优惠ID：</string>
+    <string name="selling_asset_code_label">出售资产代码：</string>
+    <string name="buying_asset_code_label">购买资产代码：</string>
+    <string name="selling_amount_label">出售金额：</string>
+    <string name="buying_price_label">买价：</string>
+    <string name="merged_into_label">合并到：</string>
+    <string name="entry_name_label">条目名称：</string>
+    <string name="entry_value_label">分录值：</string>
+
+
+    <string name="pra_label">PRA-％s：</string>
+    <string name="balance_label">可用余额：</string>
+    <string name="process_payment">流程支付</string>
+    <string name="amount_hint">收费金额</string>
+    <string name="insufficient_funds_error">不充足的资金</string>
+    <string name="greater_than_zero_error">收费金额必须大于0</string>
+    <string name="empty_amount_error">收费金额不能为空</string>
+    <string name="account_load_fail_message">无法加载帐户</string>
+    <string name="fee_calculation_fail_message">无法计算交易，请重试</string>
+    <string name="init_address_message">在付款之前，您必须在前一个屏幕上设置您的接收地址。</string>
+    <string name="account_not_initialized_message">GiveDirect钱包尚未初始化。</string>
+
+
+    <string name="pra_title">PRA-％s</string>
+    <string name="current_balance_label">当前余额：</string>
+    <string name="charge_amount_label">收费金额：</string>
+    <string name="transaction_fee_label">手续费：</string>
+    <string name="remaining_balance_label">保持平衡：</string>
+    <string name="authorize_title">扫描以授权交易</string>
+    <string name="building_transaction">建立交易&#8230;</string>
+    <string name="processing_transaction">处理交易&#8230;</string>
+    <string name="transaction_success">交易成功</string>
+    <string name="transaction_failed_message">交易失败，请重试</string>
+    <string name="potentially_processed_message">此交易可能已经被处理。请返回主屏幕并查看最近的交易。</string>
+    <string name="failed_build_transaction_title">交易建立失败</string>
+    <string name="failed_build_transaction_message">无法建立交易。请再试一次。</string>
+
+
+    <string name="write_nfc_message">扫描您想要覆盖新帐户的GiveDirect电子钱包。</string>
+    <string name="success_wallet_write">上次成功写入：</string>
+    <string name="failed_wallet_write">GiveDirect钱包写入失败。请再试一次。</string>
+
+
+    <string name="about_fragment_title">关于</string>
+    <string name="terms_and_conditions_link">使用条款及条件</string>
+    <string name="privacy_policy_link">隐私政策</string>
+    <string name="source_code_link">源代码</string>
+    <string name="contact_link">联系GiveDirect</string>
+    <string name="website_link">访问网站</string>
+    <string name="contact_subject">GiveDirect支持</string>
+    <string name="contact_body">请让我们知道我们正在做什么！</string>
+    <string name="contact_chooser_title">电子邮件GiveDirect</string>
+
+</resources>

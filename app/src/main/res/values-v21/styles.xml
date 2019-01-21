@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorAccentDark">@color/colorAccentDark</item>
+        <item name="colorAccentLight">@color/colorAccentLight</item>
+        <item name="android:windowBackground">@color/mainBackground</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryText</item>
+        <item name="android:textColorSecondary">@color/colorSecondaryText</item>
+        <item name="android:textColorHint">@color/white_70</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
+        <item name="android:actionBarSize">46dp</item>
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="actionMenuTextColor">@color/colorPrimaryText</item>
+        <item name="overlayStyle">@style/OverlayStyle</item>
+        <item name="android:editTextColor">@color/colorPrimaryText</item>
+        <item name="colorControlNormal">@color/colorPrimary</item>
+        <item name="colorControlActivated">@color/colorPrimaryDark</item>
+        <item name="colorControlHighlight">@color/colorPrimaryDark</item>
+    </style>
+</resources>

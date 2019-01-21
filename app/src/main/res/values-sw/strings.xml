@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GiveDirectPOS</string>
+
+    <string name="company_name_spaced">&#160;GiveDirect&#160;</string>
+    <string name="platform_powered">PLATFORM POWERED</string>
+
+    <string name="okay">Sawa</string>
+    <string name="retry">Jaribu tena</string>
+    <string name="next">Ifuatayo</string>
+    <string name="error">Hitilafu</string>
+    <string name="lumens_balance">%s Lumens</string>
+
+    <string name="nfc_unavailable_title">NFC Haikugunduliwa</string>
+    <string name="nfc_unavailable_message">Uwezo wa NFC unahitajika ili programu ipate kazi vizuri.</string>
+
+    <string name="nav_drawer_about">Kuhusu</string>
+    <string name="nav_drawer_write_wristband">Andika PayDirect Wallet</string>
+
+
+    <string name="operation_account_created">Akaunti Iliyoundwa</string>
+    <string name="operation_payment">Malipo</string>
+    <string name="operation_path_payment">Malipo ya njia</string>
+    <string name="operation_manage_offer">Sadaka Iliyotumika</string>
+    <string name="operation_create_passive_offer">Kutoa sadaka Imeundwa</string>
+    <string name="operation_set_options">Chagua Chaguo</string>
+    <string name="operation_change_trust">Uaminifu umebadilishwa</string>
+    <string name="operation_allow_trust">Kuruhusiwa na Uaminifu</string>
+    <string name="operation_account_merge">Akaunti imeunganishwa</string>
+    <string name="operation_inflation">Kuongezeka kwa Mfumuko wa bei</string>
+    <string name="operation_manage_data">Uingizaji wa Data umebadilishwa</string>
+    <string name="operation_unknown">Haijulikani</string>
+
+    <string name="address_validation">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789</string>
+
+
+    <string name="load_home_error_title">Hitilafu</string>
+    <string name="load_home_error_message">Imeshindwa kupakia</string>
+    <string name="nfc_parse_error">Imeshindwa kupiga NFC</string>
+    <string name="nfc_malformed_error">Ulipaji malipo kwa NFC</string>
+    <string name="address_init_required_for_write">Lazima usanidi anwani yako ya kupokea ili kupata utendaji wa Kuandika Wallet wa Wallet.</string>
+
+
+    <string name="setup_message">Tafadhali ingiza anwani ya umma utakayotumia ili kupata fedha.</string>
+    <string name="receiving_address_hint">Kupokea Anwani</string>
+    <string name="receiving_address_length_error">Anwani lazima iwe na wahusika 56 kwa muda mrefu</string>
+    <string name="receiving_address_prefix_error">Anwani lazima ianze kwa barua \ &#39;G \&#39;</string>
+    <string name="receiving_address_invalid_error">Anwani isiyo sahihi</string>
+    <string name="receiving_address_uninitialized_error_title">Akaunti Haijaanzishwa</string>
+    <string name="receiving_address_uninitialized_error_message">Tafadhali ingiza akaunti hii kwa kwanza kutuma 1 Lumen (XLM) kabla ya kuendelea.</string>
+    <string name="receiving_address_not_whitelisted_title">Akaunti sio kwenye faili kwenye GiveDirect</string>
+    <string name="receiving_address_not_whitelisted_message">Tafadhali fikia msaada wa GiveDirect kwa upatikanaji.</string>
+    <string name="receiving_address_unknown_error_title">Lo!</string>
+    <string name="receiving_address_unknown_error_message">Kitu kilichokosa. Tafadhali jaribu tena.</string>
+    <string name="receiving_address_lookup_progress">Inatazama anwani ya juu &#8230;</string>
+    <string name="receiving_address_set">Weka Kupokea Anwani</string>
+
+
+    <string name="recent_transactions_title">Shughuli za hivi karibuni</string>
+    <string name="scan_title">Scan Ili Angalia Mizani</string>
+    <string name="date_label">Tarehe:</string>
+    <string name="operation_type_label">Hatua Iliyofanyika:</string>
+    <string name="memo_label">Memo:</string>
+    <string name="recipient_label">Mpokeaji:</string>
+    <string name="sender_label">Sender:</string>
+    <string name="receive_amount_prefix">+%1$s %2$s</string>
+    <string name="send_amount_prefix">-%1$s %2$s</string>
+    <string name="failed_load_transactions">Imeshindwa kupakia shughuli</string>
+    <string name="trustee_label">Msimamizi:</string>
+    <string name="trustor_label">Mtejaji:</string>
+    <string name="asset_label">Mali:</string>
+    <string name="offer_id_label">Id ya kutoa:</string>
+    <string name="selling_asset_code_label">Nunua Msimbo wa Mali:</string>
+    <string name="buying_asset_code_label">Nunua Msimbo wa Mali:</string>
+    <string name="selling_amount_label">Kuuza Kiasi:</string>
+    <string name="buying_price_label">Bei ya kununua:</string>
+    <string name="merged_into_label">Imeunganishwa ndani:</string>
+    <string name="entry_name_label">Jina la Kuingia:</string>
+    <string name="entry_value_label">Thamani ya Kuingia:</string>
+
+
+    <string name="pra_label">PRA-%s:</string>
+    <string name="balance_label">Mizani inapatikana:</string>
+    <string name="process_payment">Mchakato wa Malipo</string>
+    <string name="amount_hint">Kiwango cha malipo</string>
+    <string name="insufficient_funds_error">Hela hazitoshi</string>
+    <string name="greater_than_zero_error">Kiwango cha malipo lazima iwe kubwa kuliko 0</string>
+    <string name="empty_amount_error">Kiwango cha malipo hawezi kuwa tupu</string>
+    <string name="account_load_fail_message">Imeshindwa kupakia akaunti</string>
+    <string name="fee_calculation_fail_message">Imeshindwa kuhesabu shughuli, tafadhali jaribu tena</string>
+    <string name="init_address_message">Lazima uweke anwani yako ya kupokea kwenye skrini iliyopita kabla ya kuchukua malipo.</string>
+    <string name="account_not_initialized_message">Mkoba huu wa GiveDirect haujaanzishwa bado.</string>
+
+
+    <string name="pra_title">PRA-%s</string>
+    <string name="current_balance_label">Mizani ya sasa:</string>
+    <string name="charge_amount_label">Kiwango cha malipo:</string>
+    <string name="transaction_fee_label">Malipo ya Transaction:</string>
+    <string name="remaining_balance_label">Mizani iliyobaki:</string>
+    <string name="authorize_title">Scan ili Uidhinishe Shughuli</string>
+    <string name="building_transaction">Ujenzi wa Matengenezo &#8230;</string>
+    <string name="processing_transaction">Inatayarisha Shughuli &#8230;</string>
+    <string name="transaction_success">Shughuli inafanikiwa</string>
+    <string name="transaction_failed_message">Shughuli imeshindwa, tafadhali jaribu tena</string>
+    <string name="potentially_processed_message">Shughuli hii inaweza kuwa tayari kusindika. Tafadhali kurudi kwenye skrini kuu na angalia shughuli za hivi karibuni.</string>
+    <string name="failed_build_transaction_title">Shughuli ya Kushindwa Kujenga</string>
+    <string name="failed_build_transaction_message">Imeshindwa kujenga shughuli. Tafadhali jaribu tena.</string>
+
+
+    <string name="write_nfc_message">Jaribu Wallet ya GiveDirect unayotaka kuandika akaunti mpya.</string>
+    <string name="success_wallet_write">Andika mafanikio ya mwisho:</string>
+    <string name="failed_wallet_write">Toa Msaada wa Toleo la Toleo la Msaada. Tafadhali jaribu tena.</string>
+
+
+    <string name="about_fragment_title">Kuhusu</string>
+    <string name="terms_and_conditions_link">Masharti na Masharti ya Matumizi</string>
+    <string name="privacy_policy_link">Sera ya faragha</string>
+    <string name="source_code_link">Chanzo Kanuni</string>
+    <string name="contact_link">Wasiliana na GiveDirect</string>
+    <string name="website_link">Tembelea Tovuti</string>
+    <string name="contact_subject">Msaada wa GiveDirect</string>
+    <string name="contact_body">Tafadhali tujulishe jinsi tunavyofanya!</string>
+    <string name="contact_chooser_title">Email GiveDirect</string>
+
+</resources>

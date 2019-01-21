@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#FFFF309E</color>
+    <color name="colorPrimaryDark">#FFE6007A</color>
+    <color name="colorPrimaryLight">#FFF8B0C9</color>
+    <color name="colorAccent">#FFC0C0C0</color>
+    <color name="colorAccentDark">#FFAAAAAA</color>
+    <color name="colorAccentLight">#FFE0E0E0</color>
+    <color name="colorPrimaryText">@color/black</color>
+    <color name="colorSecondaryText">@color/white</color>
+    <color name="warningColor">#FFD24D57</color>
+    <color name="mainBackground">@color/white</color>
+    <color name="dividerColor">@color/black_12</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="white_70">#B3FFFFFF</color>
+    <color name="white_20">#33FFFFFF</color>
+    <color name="white_12">#1FFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="black_70">#B3000000</color>
+    <color name="black_26">#42000000</color>
+    <color name="black_12">#1F000000</color>
+
+    <color name="transfer_in">#FF87D37C</color>
+    <color name="transfer_out">#FFE26A6A</color>
+
+</resources>

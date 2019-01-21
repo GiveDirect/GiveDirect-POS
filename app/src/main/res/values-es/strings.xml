@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GiveDirectPOS</string>
+
+    <string name="company_name_spaced">&#160;GiveDirect&#160;</string>
+    <string name="platform_powered">PLATAFORMA IMPULSADA</string>
+
+    <string name="okay">Bueno</string>
+    <string name="retry">Rever</string>
+    <string name="next">Siguiente</string>
+    <string name="error">Error</string>
+    <string name="lumens_balance">%s lúmenes</string>
+
+    <string name="nfc_unavailable_title">NFC no detectado</string>
+    <string name="nfc_unavailable_message">La capacidad NFC es necesaria para que la aplicación funcione correctamente.</string>
+
+    <string name="nav_drawer_about">Acerca de</string>
+    <string name="nav_drawer_write_wristband">Escribir GiveDirect Wallet</string>
+
+
+    <string name="operation_account_created">Cuenta creada</string>
+    <string name="operation_payment">Pago</string>
+    <string name="operation_path_payment">Pago de ruta</string>
+    <string name="operation_manage_offer">Oferta administrada</string>
+    <string name="operation_create_passive_offer">Oferta pasiva creada</string>
+    <string name="operation_set_options">Opciones establecidas</string>
+    <string name="operation_change_trust">Confianza modificada</string>
+    <string name="operation_allow_trust">Confianza permitida</string>
+    <string name="operation_account_merge">Cuenta fusionada</string>
+    <string name="operation_inflation">Ejecución de inflación</string>
+    <string name="operation_manage_data">Entrada de datos modificada</string>
+    <string name="operation_unknown">DESCONOCIDO</string>
+
+    <string name="address_validation">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789</string>
+
+
+    <string name="load_home_error_title">Error</string>
+    <string name="load_home_error_message">Falló al cargar</string>
+    <string name="nfc_parse_error">Error al analizar NFC</string>
+    <string name="nfc_malformed_error">Carga útil NFC malformada</string>
+    <string name="address_init_required_for_write">Debe configurar su dirección de recepción para obtener la funcionalidad de escritura GiveDirect Wallet.</string>
+
+
+    <string name="setup_message">Ingrese la dirección pública que usará para recibir fondos.</string>
+    <string name="receiving_address_hint">Dirección de recepción</string>
+    <string name="receiving_address_length_error">La dirección debe tener 56 caracteres de largo</string>
+    <string name="receiving_address_prefix_error">La dirección debe comenzar con la letra \ &#39;G \&#39;</string>
+    <string name="receiving_address_invalid_error">Dirección inválida</string>
+    <string name="receiving_address_uninitialized_error_title">Cuenta no inicializada</string>
+    <string name="receiving_address_uninitialized_error_message">Inicialice esta cuenta enviando primero 1 Lumen (XLM) antes de continuar.</string>
+    <string name="receiving_address_not_whitelisted_title">Cuenta no registrada en GiveDirect</string>
+    <string name="receiving_address_not_whitelisted_message">Comuníquese con la asistencia de GiveDirect para obtener acceso.</string>
+    <string name="receiving_address_unknown_error_title">Oops!</string>
+    <string name="receiving_address_unknown_error_message">Algo salió mal. Inténtalo de nuevo.</string>
+    <string name="receiving_address_lookup_progress">Buscando dirección &#8230;</string>
+    <string name="receiving_address_set">Establecer la dirección de recepción</string>
+
+
+    <string name="recent_transactions_title">Transacciones Recientes</string>
+    <string name="scan_title">Escanear para verificar saldo</string>
+    <string name="date_label">Fecha:</string>
+    <string name="operation_type_label">Acción realizada:</string>
+    <string name="memo_label">Memorándum:</string>
+    <string name="recipient_label">Recipiente:</string>
+    <string name="sender_label">Remitente:</string>
+    <string name="receive_amount_prefix">+%1$s %2$s</string>
+    <string name="send_amount_prefix">-%1$s %2$s</string>
+    <string name="failed_load_transactions">Error al cargar transacciones</string>
+    <string name="trustee_label">Fideicomisario:</string>
+    <string name="trustor_label">Fideicomitente:</string>
+    <string name="asset_label">Activo:</string>
+    <string name="offer_id_label">Id de oferta:</string>
+    <string name="selling_asset_code_label">Vender código de activo:</string>
+    <string name="buying_asset_code_label">Comprar código de activos:</string>
+    <string name="selling_amount_label">Importe de venta:</string>
+    <string name="buying_price_label">Precio de compra:</string>
+    <string name="merged_into_label">Combinados:</string>
+    <string name="entry_name_label">Nombre de entrada:</string>
+    <string name="entry_value_label">Valor de entrada:</string>
+
+
+    <string name="pra_label">PRA-%s:</string>
+    <string name="balance_label">Saldo disponible:</string>
+    <string name="process_payment">Proceso de pago</string>
+    <string name="amount_hint">Precio a cobrar</string>
+    <string name="insufficient_funds_error">Fondos insuficientes</string>
+    <string name="greater_than_zero_error">El monto de la carga debe ser mayor que 0</string>
+    <string name="empty_amount_error">La cantidad de la carga no puede estar vacía</string>
+    <string name="account_load_fail_message">Error al cargar la cuenta</string>
+    <string name="fee_calculation_fail_message">Error al calcular la transacción, intente de nuevo</string>
+    <string name="init_address_message">Debe configurar su dirección de recepción en la pantalla anterior antes de realizar pagos.</string>
+    <string name="account_not_initialized_message">Este monedero GiveDirect aún no se ha inicializado.</string>
+
+
+    <string name="pra_title">PRA-%s</string>
+    <string name="current_balance_label">Saldo actual:</string>
+    <string name="charge_amount_label">Precio a cobrar:</string>
+    <string name="transaction_fee_label">Tarifa de transacción:</string>
+    <string name="remaining_balance_label">Balance restante:</string>
+    <string name="authorize_title">Escanear para autorizar la transacción</string>
+    <string name="building_transaction">Construyendo transacción &#8230;</string>
+    <string name="processing_transaction">Transacción de procesamiento &#8230;</string>
+    <string name="transaction_success">Transacción exitosa</string>
+    <string name="transaction_failed_message">Transacción fallida, por favor intente de nuevo</string>
+    <string name="potentially_processed_message">Esta transacción ya puede haber sido procesada. Regrese a la pantalla principal y verifique las transacciones recientes.</string>
+    <string name="failed_build_transaction_title">Error de compilación de transacciones</string>
+    <string name="failed_build_transaction_message">Error al construir la transacción Inténtalo de nuevo.</string>
+
+
+    <string name="write_nfc_message">Escanee la Cartera GiveDirect sobre la que desea sobrescribir una nueva cuenta.</string>
+    <string name="success_wallet_write">Última escritura exitosa:</string>
+    <string name="failed_wallet_write">Error de escritura de GiveDirect Wallet. Inténtalo de nuevo.</string>
+
+
+    <string name="about_fragment_title">Acerca de</string>
+    <string name="terms_and_conditions_link">Términos y condiciones de uso</string>
+    <string name="privacy_policy_link">Política de privacidad</string>
+    <string name="source_code_link">Código fuente</string>
+    <string name="contact_link">Contactar con GiveDirect</string>
+    <string name="website_link">Visita el sitio web</string>
+    <string name="contact_subject">Soporte GiveDirect</string>
+    <string name="contact_body">¡Por favor, háganos saber cómo lo estamos haciendo!</string>
+    <string name="contact_chooser_title">Correo electrónico GiveDirect</string>
+
+</resources>

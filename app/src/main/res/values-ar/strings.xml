@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GiveDirectPOS</string>
+
+    <string name="company_name_spaced">&#160;GiveDirect&#160;</string>
+    <string name="platform_powered">PLATFORM POWERED</string>
+
+    <string name="okay">حسنا</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="next">التالى</string>
+    <string name="error">خطأ</string>
+    <string name="lumens_balance">%s لومن</string>
+
+    <string name="nfc_unavailable_title">NFC غير مكتشف</string>
+    <string name="nfc_unavailable_message">هناك حاجة إلى القدرة على NFC للتطبيق لتعمل بشكل صحيح.</string>
+
+    <string name="nav_drawer_about">حول</string>
+    <string name="nav_drawer_write_wristband">اكتب GiveDirect Wallet</string>
+
+
+    <string name="operation_account_created">تم إنشاء الحساب</string>
+    <string name="operation_payment">دفع</string>
+    <string name="operation_path_payment">دفع المسار</string>
+    <string name="operation_manage_offer">العرض المدارة</string>
+    <string name="operation_create_passive_offer">عرض السلبي</string>
+    <string name="operation_set_options">مجموعة الخيارات</string>
+    <string name="operation_change_trust">الثقة التعديل</string>
+    <string name="operation_allow_trust">الثقة المسموح بها</string>
+    <string name="operation_account_merge">تم دمج الحساب</string>
+    <string name="operation_inflation">تشغيل التضخم</string>
+    <string name="operation_manage_data">إدخال البيانات المعدلة</string>
+    <string name="operation_unknown">غير معروف</string>
+
+    <string name="address_validation">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789</string>
+
+
+    <string name="load_home_error_title">خطأ</string>
+    <string name="load_home_error_message">فشل في تحميل</string>
+    <string name="nfc_parse_error">فشل تحليل NFC</string>
+    <string name="nfc_malformed_error">حمولة NFC تالفة</string>
+    <string name="address_init_required_for_write">يجب عليك تكوين عنوان المتلقي الخاص بك للحصول على وظيفة كتابة محفظة GiveDirect.</string>
+
+
+    <string name="setup_message">يرجى إدخال العنوان العام الذي ستستخدمه لتلقي الأموال.</string>
+    <string name="receiving_address_hint">تلقي العنوان</string>
+    <string name="receiving_address_length_error">يجب أن يكون العنوان 56 حرفًا</string>
+    <string name="receiving_address_prefix_error">يجب أن يبدأ العنوان بحرف \ &#39;G \&#39;</string>
+    <string name="receiving_address_invalid_error">عنوان خاطئ</string>
+    <string name="receiving_address_uninitialized_error_title">الحساب غير مهيأ</string>
+    <string name="receiving_address_uninitialized_error_message">الرجاء تهيئة هذا الحساب عن طريق إرسال 1 Lumen (XLM) أولاً قبل المتابعة.</string>
+    <string name="receiving_address_not_whitelisted_title">الحساب ليس في الملف في GiveDirect</string>
+    <string name="receiving_address_not_whitelisted_message">يرجى الاتصال بدعم GiveDirect للوصول.</string>
+    <string name="receiving_address_unknown_error_title">وجه الفتاة!</string>
+    <string name="receiving_address_unknown_error_message">هناك خطأ ما. حاول مرة اخرى.</string>
+    <string name="receiving_address_lookup_progress">البحث عن عنوان &#8230;</string>
+    <string name="receiving_address_set">ضبط عنوان الاستلام</string>
+
+
+    <string name="recent_transactions_title">التحويلات الاخيرة</string>
+    <string name="scan_title">مسح للتحقق من الرصيد</string>
+    <string name="date_label">تاريخ:</string>
+    <string name="operation_type_label">العمل المؤدى:</string>
+    <string name="memo_label">مذكرة:</string>
+    <string name="recipient_label">مستلم:</string>
+    <string name="sender_label">مرسل:</string>
+    <string name="receive_amount_prefix">+%1$s %2$s</string>
+    <string name="send_amount_prefix">-%1$s %2$s</string>
+    <string name="failed_load_transactions">فشل تحميل المعاملات</string>
+    <string name="trustee_label">القيم:</string>
+    <string name="trustor_label">Trustor:</string>
+    <string name="asset_label">الأصول:</string>
+    <string name="offer_id_label">رقم تعريف العرض:</string>
+    <string name="selling_asset_code_label">بيع قانون الأصول:</string>
+    <string name="buying_asset_code_label">شراء كود الأصول:</string>
+    <string name="selling_amount_label">مبلغ البيع:</string>
+    <string name="buying_price_label">سعر الشراء:</string>
+    <string name="merged_into_label">معلومات الإندماج:</string>
+    <string name="entry_name_label">اسم الدخول:</string>
+    <string name="entry_value_label">قيمة الدخول:</string>
+
+
+    <string name="pra_label">:PRA-%s</string>
+    <string name="balance_label">الرصيد المتوفر:</string>
+    <string name="process_payment">دفع عملية</string>
+    <string name="amount_hint">مستوى الشحن</string>
+    <string name="insufficient_funds_error">رصيد غير كاف</string>
+    <string name="greater_than_zero_error">يجب أن يكون مقدار الشحن أكبر من 0</string>
+    <string name="empty_amount_error">لا يمكن أن يكون مبلغ الرسوم فارغًا</string>
+    <string name="account_load_fail_message">فشل تحميل الحساب</string>
+    <string name="fee_calculation_fail_message">فشل حساب المعاملة ، يرجى المحاولة مرة أخرى</string>
+    <string name="init_address_message">يجب عليك تعيين عنوان استلامك على الشاشة السابقة قبل استلام الدفعات.</string>
+    <string name="account_not_initialized_message">لم يتم تهيئة محفظة GiveDirect هذه بعد.</string>
+
+
+    <string name="pra_title">PRA-%s</string>
+    <string name="current_balance_label">الرصيد الحالي:</string>
+    <string name="charge_amount_label">مستوى الشحن:</string>
+    <string name="transaction_fee_label">رسوم التحويل:</string>
+    <string name="remaining_balance_label">الرصيد المتبقي:</string>
+    <string name="authorize_title">المسح الضوئي إلى تخويل الصفقة</string>
+    <string name="building_transaction">بناء الصفقة &#8230;</string>
+    <string name="processing_transaction">معالجة المعاملة &#8230;</string>
+    <string name="transaction_success">عملية ناجحة</string>
+    <string name="transaction_failed_message">فشلت المعاملة ، يرجى المحاولة مرة أخرى</string>
+    <string name="potentially_processed_message">هذه المعاملة ربما تمت معالجتها بالفعل. يرجى العودة إلى الشاشة الرئيسية والتحقق من المعاملات الأخيرة.</string>
+    <string name="failed_build_transaction_title">فشل في إنشاء المعاملات</string>
+    <string name="failed_build_transaction_message">فشل في بناء المعاملة. حاول مرة اخرى.</string>
+
+
+    <string name="write_nfc_message">قم بمسح محفظة GiveDirect التي ترغب في استبدالها بحساب جديد.</string>
+    <string name="success_wallet_write">آخر كتابة ناجحة:</string>
+    <string name="failed_wallet_write">فشل GiveDirect محفظة الكتابة. حاول مرة اخرى.</string>
+
+
+    <string name="about_fragment_title">حول</string>
+    <string name="terms_and_conditions_link">شزوط واشتراطات الاستخدام</string>
+    <string name="privacy_policy_link">سياسة الخصوصية</string>
+    <string name="source_code_link">مصدر الرمز</string>
+    <string name="contact_link">الاتصال GiveDirect</string>
+    <string name="website_link">زيارة الموقع</string>
+    <string name="contact_subject">دعم GiveDirect</string>
+    <string name="contact_body">واسمحوا لنا أن نعرف كيف نفعل!</string>
+    <string name="contact_chooser_title">البريد الإلكتروني GiveDirect</string>
+
+</resources>

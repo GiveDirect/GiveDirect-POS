@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GiveDirectPOS</string>
+
+    <string name="company_name_spaced">&#160;GiveDirect&#160;</string>
+    <string name="platform_powered">ПЛАТФОРМА</string>
+
+    <string name="okay">Хорошо</string>
+    <string name="retry">Retry</string>
+    <string name="next">следующий</string>
+    <string name="error">ошибка</string>
+    <string name="lumens_balance">%s Люмен</string>
+
+    <string name="nfc_unavailable_title">NFC не обнаружен</string>
+    <string name="nfc_unavailable_message">Для нормальной работы приложения требуется возможность NFC.</string>
+
+    <string name="nav_drawer_about">Около</string>
+    <string name="nav_drawer_write_wristband">Создать кошелек GiveDirect</string>
+
+
+    <string name="operation_account_created">Аккаунт создан</string>
+    <string name="operation_payment">Оплата</string>
+    <string name="operation_path_payment">Путь платежа</string>
+    <string name="operation_manage_offer">Предложение управляется</string>
+    <string name="operation_create_passive_offer">Создано пассивное предложение</string>
+    <string name="operation_set_options">Набор опций</string>
+    <string name="operation_change_trust">Доверенное изменение</string>
+    <string name="operation_allow_trust">Доверенность разрешена</string>
+    <string name="operation_account_merge">Объединенная учетная запись</string>
+    <string name="operation_inflation">Инфляционный прогон</string>
+    <string name="operation_manage_data">Изменение данных</string>
+    <string name="operation_unknown">НЕИЗВЕСТНЫЙ</string>
+
+    <string name="address_validation">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789</string>
+
+
+    <string name="load_home_error_title">ошибка</string>
+    <string name="load_home_error_message">Ошибка загрузки</string>
+    <string name="nfc_parse_error">Не удалось проанализировать NFC</string>
+    <string name="nfc_malformed_error">Недостаточная полезная нагрузка NFC</string>
+    <string name="address_init_required_for_write">Вы должны настроить свой принимающий адрес, чтобы получить функциональность WriteDirect Paperlet.</string>
+
+
+    <string name="setup_message">Пожалуйста, введите общедоступный адрес, который вы будете использовать для получения средств.</string>
+    <string name="receiving_address_hint">Адрес получателя</string>
+    <string name="receiving_address_length_error">Адрес должен содержать 56 символов</string>
+    <string name="receiving_address_prefix_error">Адрес должен начинаться с буквы «G»</string>
+    <string name="receiving_address_invalid_error">Недействительный адрес</string>
+    <string name="receiving_address_uninitialized_error_title">Не инициализирована учетная запись</string>
+    <string name="receiving_address_uninitialized_error_message">Пожалуйста, инициализируйте этот аккаунт, сначала отправив 1 Lumen (XLM), прежде чем продолжить.</string>
+    <string name="receiving_address_not_whitelisted_title">Учетная запись не в файле в GiveDirect</string>
+    <string name="receiving_address_not_whitelisted_message">Просьба обратиться к поддержке GiveDirect для доступа.</string>
+    <string name="receiving_address_unknown_error_title">К сожалению!</string>
+    <string name="receiving_address_unknown_error_message">Что-то пошло не так. Пожалуйста, попробуйте еще раз.</string>
+    <string name="receiving_address_lookup_progress">Поиск адреса &#8230;</string>
+    <string name="receiving_address_set">Установить получающий адрес</string>
+
+
+    <string name="recent_transactions_title">Последние транзакции</string>
+    <string name="scan_title">Сканировать для проверки баланса</string>
+    <string name="date_label">Дата:</string>
+    <string name="operation_type_label">Выполненное действие:</string>
+    <string name="memo_label">Напоминание:</string>
+    <string name="recipient_label">Получатель:</string>
+    <string name="sender_label">Отправитель:</string>
+    <string name="receive_amount_prefix">+%1$s %2$s</string>
+    <string name="send_amount_prefix">-%1$s %2$s</string>
+    <string name="failed_load_transactions">Не удалось загрузить транзакции</string>
+    <string name="trustee_label">Доверенное лицо:</string>
+    <string name="trustor_label">Учредитель:</string>
+    <string name="asset_label">Актив:</string>
+    <string name="offer_id_label">Идентификатор предложения:</string>
+    <string name="selling_asset_code_label">Продать Код актива:</string>
+    <string name="buying_asset_code_label">Купить код актива:</string>
+    <string name="selling_amount_label">Сумма продажи:</string>
+    <string name="buying_price_label">Цена покупки:</string>
+    <string name="merged_into_label">Слияние:</string>
+    <string name="entry_name_label">Название записи:</string>
+    <string name="entry_value_label">Начальная стоимость:</string>
+
+
+    <string name="pra_label">PRA-%s:</string>
+    <string name="balance_label">Доступные средства:</string>
+    <string name="process_payment">Процесс оплаты</string>
+    <string name="amount_hint">Сумма оплаты</string>
+    <string name="insufficient_funds_error">Недостаточно средств</string>
+    <string name="greater_than_zero_error">Сумма заряда должна быть больше 0</string>
+    <string name="empty_amount_error">Сумма заряда не может быть пуста</string>
+    <string name="account_load_fail_message">Не удалось загрузить учетную запись</string>
+    <string name="fee_calculation_fail_message">Не удалось вычислить транзакцию, повторите попытку</string>
+    <string name="init_address_message">Перед принятием платежей вы должны установить свой принимающий адрес на предыдущем экране.</string>
+    <string name="account_not_initialized_message">Этот кошелек GiveDirect еще не инициализирован.</string>
+
+
+    <string name="pra_title">PRA-%s</string>
+    <string name="current_balance_label">Текущий баланс:</string>
+    <string name="charge_amount_label">Сумма сбора:</string>
+    <string name="transaction_fee_label">Комиссия на перевод:</string>
+    <string name="remaining_balance_label">Остаток средств:</string>
+    <string name="authorize_title">Сканировать для авторизации транзакции</string>
+    <string name="building_transaction">Строительная сделка &#8230;</string>
+    <string name="processing_transaction">Обработка транзакций &#8230;</string>
+    <string name="transaction_success">Успешная транзакция</string>
+    <string name="transaction_failed_message">Не удалось выполнить транзакцию. Повторите попытку.</string>
+    <string name="potentially_processed_message">Возможно, эта транзакция уже обработана. Вернитесь на главный экран и проверьте последние транзакции.</string>
+    <string name="failed_build_transaction_title">Сбой транзакции</string>
+    <string name="failed_build_transaction_message">Не удалось создать транзакцию. Пожалуйста, попробуйте еще раз.</string>
+
+
+    <string name="write_nfc_message">Сканируйте Копию GiveDirect, к которой вы хотите переписать новую учетную запись.</string>
+    <string name="success_wallet_write">Последняя успешная запись:</string>
+    <string name="failed_wallet_write">Ошибка WriteDirect Wallet. Пожалуйста, попробуйте еще раз.</string>
+
+
+    <string name="about_fragment_title">Около</string>
+    <string name="terms_and_conditions_link">Правила и условия пользования</string>
+    <string name="privacy_policy_link">политика конфиденциальности</string>
+    <string name="source_code_link">Исходный код</string>
+    <string name="contact_link">Как связаться с GiveDirect</string>
+    <string name="website_link">Посетите вебсайт</string>
+    <string name="contact_subject">Поддержка GiveDirect</string>
+    <string name="contact_body">Пожалуйста, дайте нам знать, как мы это делаем!</string>
+    <string name="contact_chooser_title">Отправить по электронной почте GiveDirect</string>
+
+</resources>

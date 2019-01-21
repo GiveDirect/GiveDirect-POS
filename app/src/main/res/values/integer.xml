@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="address_length">56</integer>
+    <integer name="max_memo_length">28</integer>
+</resources>

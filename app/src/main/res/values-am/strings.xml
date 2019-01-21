@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GiveDirectPOS</string>
+
+    <string name="company_name_spaced">&#160;GiveDirect&#160;</string>
+    <string name="platform_powered">PLATFORM POWERED</string>
+
+    <string name="okay">እሺ</string>
+    <string name="retry">እንደገና ሞክር</string>
+    <string name="next">ቀጣይ</string>
+    <string name="error">ስህተት</string>
+    <string name="lumens_balance">%s Lumens</string>
+
+    <string name="nfc_unavailable_title">NFC አልተገኘም</string>
+    <string name="nfc_unavailable_message">መተግበሪያው በአግባቡ እንዲሰራ የ NFC ችሎታ ያስፈልጋል.</string>
+
+    <string name="nav_drawer_about">ስለ</string>
+    <string name="nav_drawer_write_wristband">GiveDirect Wallet ን ጻፍ</string>
+
+
+    <string name="operation_account_created">መለያ ተፈጥሯል</string>
+    <string name="operation_payment">ክፍያ</string>
+    <string name="operation_path_payment">የመንገድ ክፍያ</string>
+    <string name="operation_manage_offer">ማስተዳደርን ያቅርቡ</string>
+    <string name="operation_create_passive_offer">የጠፋ ቅናሽ ተፈጥሯል</string>
+    <string name="operation_set_options">አማራጮች አቀናብር</string>
+    <string name="operation_change_trust">እምነት መታመን</string>
+    <string name="operation_allow_trust">መተማመን የተፈቀደል</string>
+    <string name="operation_account_merge">ሂሳብ ተዋህዷል</string>
+    <string name="operation_inflation">የንፋስ ኃይል ሩጫ</string>
+    <string name="operation_manage_data">የውሂብ መግቢያ ተቀይሯል</string>
+    <string name="operation_unknown">ያልታወቀ</string>
+
+    <string name="address_validation">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789</string>
+
+
+    <string name="load_home_error_title">ስህተት</string>
+    <string name="load_home_error_message">ለመጫን አልተሳካም</string>
+    <string name="nfc_parse_error">NFC ለመተንተን አልተሳካም</string>
+    <string name="nfc_malformed_error">የተበላሸ የ NFC ክፍያ ጭነት</string>
+    <string name="address_init_required_for_write">GiveDirect Wallet ን ለመጻፍ የመቀበያ አድራሻዎን ማዋቀር አለብዎት.</string>
+
+
+    <string name="setup_message">እባክዎ ገንዘብ ለመቀበል የሚጠቀሙበትን ይፋዊ አድራሻ ያስገቡ.</string>
+    <string name="receiving_address_hint">አድራሻ በመቀበል ላይ</string>
+    <string name="receiving_address_length_error">አድራሻ 56 ካራክተሮች መሆን አለበት</string>
+    <string name="receiving_address_prefix_error">አድራሻው በ \ &#39;G \&#39; ፊደል መጀመር አለበት</string>
+    <string name="receiving_address_invalid_error">ልክ ያልሆነ አድራሻ</string>
+    <string name="receiving_address_uninitialized_error_title">ሂሳብ አልተጀመረም</string>
+    <string name="receiving_address_uninitialized_error_message">እባክዎ ሂደቱን ከመቀጠልዎ በፊት በመጀመሪያ 1 Lumen (XLM) በመላክ ያጀምሩ.</string>
+    <string name="receiving_address_not_whitelisted_title">መዝገብ GiveDirect ላይ ፋይል ላይ የለም</string>
+    <string name="receiving_address_not_whitelisted_message">እባክዎን ለመድረስ መዳረሻ ቀጥታ ድጋፍ ያግኙ.</string>
+    <string name="receiving_address_unknown_error_title">ውይ!</string>
+    <string name="receiving_address_unknown_error_message">የሆነ ስህተት ተከስቷል. እባክዎ ዳግም ይሞክሩ.</string>
+    <string name="receiving_address_lookup_progress">አድራሻ በመፈለግ ላይ &#8230;</string>
+    <string name="receiving_address_set">የመቀበያ አድራሻ ያዘጋጁ</string>
+
+
+    <string name="recent_transactions_title">የቅርብ ጊዜ ግብይቶች</string>
+    <string name="scan_title">ሚዛንን ለመፈተሽ ቅረጽ</string>
+    <string name="date_label">ቀን:</string>
+    <string name="operation_type_label">እርምጃ የተከናወነ:</string>
+    <string name="memo_label">ማስታወሻ:</string>
+    <string name="recipient_label">ተቀባይ:</string>
+    <string name="sender_label">የላኪ</string>
+    <string name="receive_amount_prefix">+%1$s %2$s</string>
+    <string name="send_amount_prefix">-%1$s %2$s</string>
+    <string name="failed_load_transactions">ግብይቶችን መጫን አልተሳካም</string>
+    <string name="trustee_label">ባለአደራ</string>
+    <string name="trustor_label">እምነት የሚጣልበት:</string>
+    <string name="asset_label">ንብረት:</string>
+    <string name="offer_id_label">የምስጠት መታወቂያ:</string>
+    <string name="selling_asset_code_label">የንብረት ኮድ ይሽጥ:</string>
+    <string name="buying_asset_code_label">የቋሚ ንብረት ይግዙ:</string>
+    <string name="selling_amount_label">የሽያጭ መጠን:</string>
+    <string name="buying_price_label">የግዢ ዋጋ:</string>
+    <string name="merged_into_label">የተዋሃደው ወደ:</string>
+    <string name="entry_name_label">የግቤት ስም:</string>
+    <string name="entry_value_label">የምግብ ዋጋ:</string>
+
+
+    <string name="pra_label">PRA-%s:</string>
+    <string name="balance_label">የሚገኝ ቀሪ:</string>
+    <string name="process_payment">ክፍያ ሂደት</string>
+    <string name="amount_hint">የክፍያ መጠን</string>
+    <string name="insufficient_funds_error">በቂ ገንዘብ የለም</string>
+    <string name="greater_than_zero_error">የክፍያ መጠን ከ 0 በላይ መሆን አለበት</string>
+    <string name="empty_amount_error">የክፍያ መጠን ባዶ ሊሆን አይችልም</string>
+    <string name="account_load_fail_message">መለያውን መጫን አልተሳካም</string>
+    <string name="fee_calculation_fail_message">ግብይቱን ማስላት አልተሳካም, እባክዎ እንደገና ይሞክሩ</string>
+    <string name="init_address_message">ክፍያ ከመፈጸማቸው በፊት የመቀበያ አድራሻዎን ቀደም ባለው ማሳያ ላይ ማዘጋጀት አለብዎት.</string>
+    <string name="account_not_initialized_message">ይህ GiveDirect wallet ገና አልተጀመረም.</string>
+
+
+    <string name="pra_title">PRA -%s</string>
+    <string name="current_balance_label">የአሁኑ ሒሳብ:</string>
+    <string name="charge_amount_label">የክፍያ መጠን:</string>
+    <string name="transaction_fee_label">የግብይት ክፍያ:</string>
+    <string name="remaining_balance_label">ቀሪ ቀሪ:</string>
+    <string name="authorize_title">ግብይት ፍቃድ ለመስጠት ቃኝ</string>
+    <string name="building_transaction">የግብይት ግንባታ &#8230;</string>
+    <string name="processing_transaction">ግብይት በመስራት ላይ &#8230;</string>
+    <string name="transaction_success">የግብይት ስኬት ተሳክቷል</string>
+    <string name="transaction_failed_message">ግብይቱ ተሳክቷል, እባክዎ እንደገና ይሞክሩ</string>
+    <string name="potentially_processed_message">ይህ ግብይት ቀድሞውኑ ሥራ ላይሆን ይችላል. እባክዎ ወደ ዋናው ማያ ገጽ ይመለሱ እና የቅርብ ጊዜ ግብይቶችን ይመልከቱ.</string>
+    <string name="failed_build_transaction_title">የግብይት ግንባታ ድፍረት</string>
+    <string name="failed_build_transaction_message">ግብይትን መገንባት አልተሳካም. እባክዎ ዳግም ይሞክሩ.</string>
+
+
+    <string name="write_nfc_message">አዲስ መለያ ለመተካት የፈለጉትን GiveDirect Wallet ይቃኙ.</string>
+    <string name="success_wallet_write">የመጨረሻው የተሳካ ደብዳቤ:</string>
+    <string name="failed_wallet_write">GiveDirect Wallet መጻፍ አለመቻል. እባክዎ ዳግም ይሞክሩ.</string>
+
+
+    <string name="about_fragment_title">ስለ</string>
+    <string name="terms_and_conditions_link">የአጠቃቀም ደንቦች እና አጠቃቀም</string>
+    <string name="privacy_policy_link">የ ግል የሆነ</string>
+    <string name="source_code_link">ምንጭ ኮድ</string>
+    <string name="contact_link">GiveDirect ን ያነጋግሩ</string>
+    <string name="website_link">ድር ጣቢያ ጎብኝ</string>
+    <string name="contact_subject">ቀጥታ ድጋፍ</string>
+    <string name="contact_body">እንዴት እንደምናደርግ አሳውቀን!</string>
+    <string name="contact_chooser_title">ኢሜል GiveDirect</string>
+
+</resources>

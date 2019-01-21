@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AppTheme">
+        <attr name="colorAccentDark" format="color"/>
+        <attr name="colorAccentLight" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="Overlay">
+        <attr name="overlayStyle" format="reference"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AddressEditText" parent="Base.Widget.AppCompat.EditText">
+        <item name="android:hyphenationFrequency">none</item>
+        <item name="android:breakStrategy">simple</item>
+        <item name="android:maxLength">@integer/address_length</item>
+        <item name="android:inputType">textCapCharacters|textMultiLine</item>
+        <item name="android:digits">@string/address_validation</item>
+    </style>
+
+</resources>
